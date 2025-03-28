@@ -1,0 +1,41 @@
+nav {
+  display: flex;
+  gap: 1.5rem;
+}
+
+nav .relative {
+  position: relative;
+}
+
+nav .relative div {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  z-index: 10;
+  background-color: white;
+  border-radius: 0.25rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  margin: 0;
+}
+
+nav a {
+  display: block;
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+  color: inherit;
+  transition: background-color 0.2s ease-in-out;
+}
+
+nav a:hover {
+  background-color: #f3f4f6; /* Light gray hover effect */
+}
