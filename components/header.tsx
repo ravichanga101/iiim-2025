@@ -186,10 +186,7 @@ const menuItems = [
             title: "Community Extension Services",
             href: "https://drive.google.com/drive/folders/1ZB0dOEH_F2UwH1I9lPhfhEcYYQ2lbnx3",
           },
-          {
-            title: "Help",
-            href: "/academics/certificate",
-          },
+
           {
             title: "Guidance & Counseling",
             href: "/academics/certificate",
@@ -217,11 +214,6 @@ const menuItems = [
           {
             title: "Pay Fees",
             href: "https://support.charusat.edu.in/FeesPaymentApp/",
-            target: "_blank",
-          },
-          {
-            title: "AGACE",
-            href: "/academics/undergraduate",
             target: "_blank",
           },
         ],
@@ -318,10 +310,10 @@ export default function Header() {
   // Handle desktop mega menu
   const handleMouseEnter = (title: string) => {
     if (!isMobile) {
-      if (hoverTimeout) {
-        clearTimeout(hoverTimeout); // Clear any pending close timeout
-        setHoverTimeout(null);
-      }
+      // if (hoverTimeout) {
+      //   clearTimeout(hoverTimeout); // Clear any pending close timeout
+      //   setHoverTimeout(null);
+      // }
       setOpenMenu(title);
     }
   };
@@ -334,11 +326,12 @@ export default function Header() {
       setHoverTimeout(timeout);
     }
   };
-  const handleSubmenuMouseEnter = () => {
+  const handleSubmenuMouseEnter = (openMenu) => {
     if (hoverTimeout) {
       clearTimeout(hoverTimeout); // Prevent closing when hovering over the submenu
       setHoverTimeout(null);
     }
+    setOpenMenu(openMenu);
   };
 
   const handleSubmenuMouseLeave = () => {
@@ -485,8 +478,9 @@ export default function Header() {
                   <div
                     key={`megamenu-${item.title}`}
                     className="container mx-auto px-4"
-                    onMouseEnter={handleSubmenuMouseEnter} // Keep menu open when hovering over submenu
+                    onMouseEnter={() => handleSubmenuMouseEnter(item.title)} // Keep menu open when hovering over submenu
                     onMouseLeave={handleSubmenuMouseLeave} // Close menu when leaving submenu
+                    role="button"
                   >
                     <div
                       className={cn(
@@ -563,7 +557,7 @@ export default function Header() {
           "fixed inset-0 z-40 bg-background/80 backdrop-blur-sm transition-all duration-300 md:hidden",
           mobileMenuOpen ? "opacity-100" : "opacity-0 pointer-events-none"
         )}
-        style={{ top: "64px" }}
+        style={{ top: "32px" }}
       >
         <div
           className={cn(
@@ -572,7 +566,7 @@ export default function Header() {
           )}
         >
           <nav className="container divide-y">
-            <div className="py-4">
+            {/* <div className="py-4">
               <div className="relative mb-4">
                 <Search className="absolute left-3 top-1/2 h-4 w-4 -translate-y-1/2 text-muted-foreground" />
                 <input
@@ -581,7 +575,7 @@ export default function Header() {
                   className="w-full rounded-md border border-input bg-background py-2 pl-10 pr-4 text-sm ring-offset-background focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2"
                 />
               </div>
-            </div>
+            </div> */}
 
             {menuItems.map((item) => (
               <div key={item.title} className="py-2">

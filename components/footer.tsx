@@ -4,7 +4,10 @@ import Link from "next/link";
 import { MapPin, Phone, Mail } from "lucide-react";
 function footer() {
   return (
-    <footer className="border-t bg-background" id="contact">
+    <footer
+      className=" bg-background border-bg-primary border-t-8 border-t-primary "
+      id="contact"
+    >
       <div className="container py-8 md:py-12">
         <div className="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-4">
           <div className="space-y-4">
@@ -243,7 +246,7 @@ function footer() {
                 >
                   +91-7043520693 / +91 2697 265172
                 </Link>
-              </li> 
+              </li>
               <li className="flex items-center gap-2">
                 <Mail className="h-4 w-4 text-muted-foreground" />
                 <Link

@@ -29,7 +29,7 @@ export default function FacultyPage() {
           </Link>
         </div> */}
 
-        <section className="container py-12">
+        <section className="container mb-12">
           {/* <div className="mb-8 flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between">
             <Tabs defaultValue="all" className="w-full max-w-md">
               <TabsList className="grid w-full grid-cols-5">
@@ -49,7 +49,58 @@ export default function FacultyPage() {
               />
             </div> 
           </div> */}
+          <div className="rounded-lg bg-primary/10 p-2 my-10 text-center shadow-md">
+            <h3 className="text-xl font-bold text-primary">
+              Management Studies
+            </h3>
+          </div>
+          <Tabs defaultValue="all">
+            <TabsContent value="all" className="mt-0">
+              <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-4 xl:grid-cols-4">
+                {facultyMembers.map((faculty) => (
+                  <FacultyCard key={faculty.id} faculty={faculty} />
+                ))}
+              </div>
+            </TabsContent>
+            {/* <TabsContent value="professors" className="mt-0">
+              <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
+                {facultyMembers
+                  .filter(
+                    (f) =>
+                      f.designation.includes("Professor") &&
+                      !f.designation.includes("Associate") &&
+                      !f.designation.includes("Assistant")
+                  )
+                  .map((faculty) => (
+                    <FacultyCard key={faculty.id} faculty={faculty} />
+                  ))}
+              </div>
+            </TabsContent>
+            <TabsContent value="associate" className="mt-0">
+              <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
+                {facultyMembers
+                  .filter((f) => f.designation.includes("Associate Professor"))
+                  .map((faculty) => (
+                    <FacultyCard key={faculty.id} faculty={faculty} />
+                  ))}
+              </div>
+            </TabsContent>
+            <TabsContent value="assistant" className="mt-0">
+              <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
+                {facultyMembers
+                  .filter((f) => f.designation.includes("Assistant Professor"))
+                  .map((faculty) => (
+                    <FacultyCard key={faculty.id} faculty={faculty} />
+                  ))}
+              </div>
+            </TabsContent> */}
+          </Tabs>
 
+          <div className="rounded-lg bg-primary/10 p-2 my-10 text-center shadow-md">
+            <h3 className="text-xl font-bold text-primary">
+              Humanities & Social Sciences
+            </h3>
+          </div>
           <Tabs defaultValue="all">
             <TabsContent value="all" className="mt-0">
               <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-4 xl:grid-cols-4">
@@ -100,12 +151,12 @@ export default function FacultyPage() {
 function FacultyCard({ faculty }) {
   return (
     <div className="group overflow-hidden rounded-lg border bg-background shadow-sm transition-all hover:shadow-md">
-      <div className="aspect-[3/4] overflow-hidden">
+      <div className="aspect-[1/1] overflow-hidden">
         <Image
           src={faculty.image || "/placeholder.svg"}
           alt={faculty.name}
-          width={300}
-          height={400}
+          width={275}
+          height={275}
           className="h-full w-full object-cover transition-transform duration-300 group-hover:scale-105"
         />
       </div>
@@ -116,7 +167,7 @@ function FacultyCard({ faculty }) {
           {faculty.qualification}
         </p>
         <p className="mt-2 text-sm">{faculty.specialization}</p>
-        <p className="mt-2 text-sm">
+        <p className="mt-2 text-xs">
           {" "}
           <Mail className="inline-block mr-2 h-4 w-4" />
           {faculty.email}
@@ -133,7 +184,7 @@ const facultyMembers = [
     designation: "Professor & I/C. Dean(FMS)",
     qualification: "Ph.D., MBA(HRM),M.Ed.,MSc",
     specialization: "Organisational Behaviour, Emotional Intelligence",
-    image: "/assets/faculty_photo/ReshmaSable.webp?height=400&width=300",
+    image: "/assets/faculty_photo/ReshmaSable.webp?height=275&width=275",
     email: "dean.fms@charusat.ac.in",
   },
   {
@@ -142,7 +193,7 @@ const facultyMembers = [
     designation: "Professor & I/c. Principal",
     qualification: "Ph.D., MBA(Marketing),BE(Computer Science)",
     specialization: "Marketing, Consumer Behavior, General & IT Management",
-    image: "/assets/faculty_photo/BinitPatel.webp?height=400&width=300",
+    image: "/assets/faculty_photo/BinitPatel.webp",
     email: "principal.iiim@charusat.ac.in",
   },
   {
@@ -151,7 +202,8 @@ const facultyMembers = [
     designation: "Associate Professor",
     qualification: "Ph.D., MBA, M.Com",
     specialization: "Financial Management, Investment Analysis",
-    image: "/assets/faculty_photo/RajeshSadhwani.webp?height=400&width=300",
+    image: "/assets/faculty_photo/RajeshSadhwani.webp",
+    email: "rajeshsadhwani.mba@charusat.ac.in",
   },
   {
     id: 4,
@@ -159,7 +211,8 @@ const facultyMembers = [
     designation: "Associate Professor",
     qualification: "Ph.D., MBA",
     specialization: "Human Resource Management, Organizational Behavior",
-    image: "/assets/faculty_photo/Mukesh%20Pal.jpg?height=400&width=300",
+    image: "/assets/faculty_photo/Mukesh%20Pal.jpg",
+    email: "mukeshpal.mba@charusat.ac.in",
   },
   {
     id: 5,
@@ -167,7 +220,7 @@ const facultyMembers = [
     designation: "Assistant Professor",
     qualification: "Ph.D., MBA(Marketing), M.Sc., B.Sc.",
     specialization: "Marketing & Consumer Behaviour",
-    image: "/assets/faculty_photo/Geeta%20Marmat.jpg?height=400&width=300",
+    image: "/assets/faculty_photo/Geeta%20Marmat.jpg",
     email: "geetamarmat.mba@charusat.ac.in",
   },
   {
@@ -176,23 +229,172 @@ const facultyMembers = [
     designation: "Assistant Professor",
     qualification: "MBA, UGC-NET",
     specialization: "Marketing Research, Digital Marketing",
-    image: "/assets/faculty_photo/Gaurav%20Rajput.jpg?height=400&width=300",
+    image: "/assets/faculty_photo/Gaurav%20Rajput.jpg",
     email: "gauravrajput.mba@charusat.ac.in",
   },
   {
     id: 7,
-    name: "Dr. Pradeep Kumar",
+    name: "Dr. Hardi Raval",
     designation: "Assistant Professor",
-    qualification: "Ph.D., MBA",
-    specialization: "Business Analytics, Information Systems",
-    image: "/assets/faculty_photo/?height=400&width=300",
+    qualification: "Ph.D., MBA(HR)",
+    specialization: "Human Resources Management",
+    image: "/assets/faculty_photo/Hardi%20Raval.jpg",
+    email: "hardiraval.mba@charusat.ac.in",
   },
   {
     id: 8,
-    name: "Prof. Anand Mehta",
+    name: "Dr. Jaimin Trivedi",
     designation: "Assistant Professor",
-    qualification: "MBA, M.Phil., UGC-NET",
-    specialization: "Financial Accounting, Corporate Finance",
-    image: "/assets/faculty_photo/?height=400&width=300",
+    qualification: "Ph.D., M.Phil., MCom",
+    specialization: "Accounting, Finance, Business Laws",
+    image: "/assets/faculty_photo/Jaimin%20Trivedi.jpg",
+    email: "jaimintrivedi.mba@charusat.ac.in",
+  },
+  {
+    id: 9,
+    name: "Dr. Ruma Pal",
+    designation: "Assistant Professor",
+    qualification: "Ph.D.,MBA,BCom",
+    specialization: "Serivce & Retail Marketing",
+    image: "/assets/faculty_photo/RumaPal.webp",
+    email: "rumapal.mba@charusat.ac.in",
+  },
+  {
+    id: 10,
+    name: "Dr. Archana Sarkar",
+    designation: "Assistant Professor",
+    qualification: "Ph.D.,MBA(Marketing),BBA",
+    specialization: "Marketing Management/ Entrepreneurship",
+    image: "/assets/faculty_photo/ArchanaSarkar.webp",
+    email: "archanasarkar.mba@charusat.ac.in",
+  },
+  {
+    id: 11,
+    name: "Mr. Kirti Patel",
+    designation: "Assistant Professor",
+    qualification: "MBA(Marketing),BBA",
+    specialization: "Marketing & Brand Management, Business Environment",
+    image: "/assets/faculty_photo/Kirti%20Patel.jpg",
+    email: "kirtipatel.mba@charusat.ac.in",
+  },
+  {
+    id: 12,
+    name: "Ms. Dharti Patel",
+    designation: "Assistant Professor",
+    qualification: "MBA(Finance),BCom",
+    specialization: "Financial Management",
+    image: "/assets/faculty_photo/Dharti%20Patel.jpg",
+    email: " dhartipatel.mba@charusat.ac.in",
+  },
+  {
+    id: 13,
+    name: "Dr. Poonam Amrutia",
+    designation: "Assistant Professor",
+    qualification: "Ph.D.,MBA",
+    specialization: "Marketing Management, Consumer Behaviour, Sustainability",
+    image: "/assets/faculty_photo/Dr.%20Poonam%20Amrutia.webp",
+    email: "poonamamrutia.mba@charusat.ac.in",
+  },
+  {
+    id: 14,
+    name: "Ms. Margi Mehta",
+    designation: "Assistant Professor",
+    qualification: "Ph.D (Pursuing),MBA(Marketing),BBA",
+    specialization: "Marketing Management",
+    image: "/assets/faculty_photo/Margi%20Mehta.webp",
+    email: "margimehta.mba@charusat.ac.in",
+  },
+  {
+    id: 15,
+    name: "Ms. Khushboo Bhatt",
+    designation: "Assistant Professor",
+    qualification: "Ph.D (Pursuing),MBA(Marketing),BBA",
+    specialization:
+      "Project Management, General Management, Organizational Behaviour",
+    image: "/assets/faculty_photo/khushboo-bhatt.png",
+    email: "khushboobhatt.mba@charusat.ac.in",
+  },
+  {
+    id: 16,
+    name: "Dr. Shabana Anjum",
+    designation: "Assistant Professor",
+    qualification: "Ph. D.,MBA,BCom",
+    specialization: "H.R., Organisational Behaviour",
+    image: "/assets/faculty_photo/shabana-anjum.png",
+    email: "shabanaanjum.mba@charusat.ac.in",
+  },
+  {
+    id: 17,
+    name: "Dr. Mahendra H Prajapati",
+    designation: "Assistant Professor",
+    qualification: "Ph. D.,MBA,BCA",
+    specialization: "Marketing and IT",
+    image: "/assets/faculty_photo/mahendra.png",
+    email: "mahendraprajapati.mba@charusat.ac.in",
+  },
+  {
+    id: 18,
+    name: "Dr. Gopalbhai G Shah",
+    designation: "Assistant Professor",
+    qualification: "Ph. D., M.Sc.(IT), M.Sc. (Statistics)",
+    specialization: "Data Mining, Statistical Application, Data Analytics",
+    image: "/assets/faculty_photo/Gopalbhai.png",
+    email: "gopalshah.mba@charusat.ac.in",
+  },
+  {
+    id: 19,
+    name: "Ms. Aditi Mishra",
+    designation: "Assistant Professor",
+    qualification: "Ph. D., M.Sc.(IT), M.Sc. (Statistics)",
+    specialization: "Data Mining, Statistical Application, Data Analytics",
+    image: "/assets/faculty_photo/aditi-mishra.png",
+    email: "aditimishra.mba@charusat.ac.in",
+  },
+  {
+    id: 20,
+    name: "Khushali N Pathak",
+    designation: "Assistant Professor",
+    qualification: " Ph. D. (Pursuing),MBA,BBA",
+    specialization:
+      "HR Management, Organizational Behaviour, Marketing Management, General Management",
+    image: "/assets/faculty_photo/Khushali-pathak.png",
+    email: "khushalipathak.mba@charusat.ac.in",
+  },
+  {
+    id: 21,
+    name: "Mr. Surpalsinh B Rathod",
+    designation: "Assistant Professor",
+    qualification: " Ph. D. (Pursuing),MBA,BBA",
+    specialization: "Finance/Accounting",
+    image: "/assets/faculty_photo/surpalsinh-rathod.png",
+    email: "surpalrathod.mba@charusat.ac.in",
+  },
+  {
+    id: 22,
+    name: "Mr. Brijesh Patel",
+    designation: "Assistant Professor",
+    qualification: " Ph. D. (Pursuing),MHRM",
+    specialization:
+      "HR Management, Organisational Behaviour, Industrial Relations/Labour laws",
+    image: "/assets/faculty_photo/BirjeshPatel.jpg",
+    email: "brijeshpatel.mba@charusat.ac.in",
+  },
+  {
+    id: 23,
+    name: "Ms. Rania Pathan",
+    designation: "Assistant Professor",
+    qualification: " Ph. D. (Pursuing),MBA(Finance)",
+    specialization: "Financial Accounting",
+    image: "/assets/faculty_photo/RaniaPathan.jpg",
+    email: "raniapathan.mba@charusat.ac.in",
+  },
+  {
+    id: 24,
+    name: "Mrs. Nikita R. Chhasatiya",
+    designation: "Assistant Professor",
+    qualification: " Ph. D. (Pursuing),MBA",
+    specialization: "Human Resources Management, Organizational Behaviour",
+    image: "/assets/faculty_photo/Nikita%20Chhasatiya.jpg",
+    email: "nikitachhasatiya.mba@charusat.ac.in",
   },
 ];
