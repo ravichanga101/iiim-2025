@@ -20,7 +20,7 @@ function CTA() {
               target="_blank"
               rel="noopener noreferrer"
               className="group inline-flex items-center justify-center rounded-lg bg-secondary px-6 py-3  
-               font-semibold text-secondary-foreground transition hover:bg-secondary/90"
+               font-semibold text-primary transition hover:bg-secondary/90"
             >
               Apply Now
               <ChevronRight className="ml-1 h-4 w-4 transition-transform group-hover:translate-x-1" />

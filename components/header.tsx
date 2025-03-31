@@ -176,12 +176,15 @@ const menuItems = [
       {
         title: "Student Resources",
         items: [
-          { title: "AGACE", href: "/academics/undergraduate" },
           { title: "Student Activities", href: "/academics/postgraduate" },
-          { title: "Students Handbook", href: "/academics/doctoral" },
+          {
+            title: "Students Handbook",
+            href: "https://drive.google.com/drive/folders/1QbifpxXCIHsIMx09Hsnkc71fOvKb-v_c",
+            target: "_blank",
+          },
           {
             title: "Community Extension Services",
-            href: "/academics/certificate",
+            href: "https://drive.google.com/drive/folders/1ZB0dOEH_F2UwH1I9lPhfhEcYYQ2lbnx3",
           },
           {
             title: "Help",
@@ -197,20 +200,29 @@ const menuItems = [
         title: "Important Links",
         items: [
           {
-            title: "Online Transcripts",
-            href: "/academics/departments/it",
+            title: "Transcripts",
+            href: "https://charusat.edu.in:912/OthPaymentApp/",
+            target: "_blank",
           },
           {
             title: "University Results",
-            href: "/academics/departments/data-science",
+            href: "https://charusat.edu.in:912/Uniexamresult/",
+            target: "_blank",
           },
           {
             title: "e-Governance",
             href: "/academics/departments/business",
+            target: "_blank",
           },
           {
-            title: "Pay Fees Online",
-            href: "/academics/departments/marketing",
+            title: "Pay Fees",
+            href: "https://support.charusat.edu.in/FeesPaymentApp/",
+            target: "_blank",
+          },
+          {
+            title: "AGACE",
+            href: "/academics/undergraduate",
+            target: "_blank",
           },
         ],
       },
@@ -218,9 +230,21 @@ const menuItems = [
         title: "Academic Resources",
         items: [
           { title: "Academic Calendar", href: "/academics/calendar" },
-          { title: "Syllabus", href: "/academics/library" },
-          { title: "Downloads", href: "/academics/research" },
-          { title: "Old-Question Papers", href: "/academics/faculty" },
+          {
+            title: "Syllabus",
+            href: "https://drive.google.com/drive/folders/1ZB0dOEH_F2UwH1I9lPhfhEcYYQ2lbnx3",
+            target: "_blank",
+          },
+          {
+            title: "Downloads",
+            href: "https://drive.google.com/drive/folders/10-XqFw6ISXnDeyajK8oB3YIIj6NfrIyO",
+            target: "_blank",
+          },
+          {
+            title: "Old-Question Papers",
+            href: "https://drive.google.com/drive/u/0/folders/1U1hIPybwqdsF9Nn_K6QKom0Kg5yAWCaW",
+            target: "_blank",
+          },
         ],
       },
     ],
@@ -478,7 +502,7 @@ export default function Header() {
                       <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3 mx-10">
                         {item.submenu.map((section) => (
                           <div key={section.title} className="space-y-3">
-                            <h3 className="text-lg font-semibold text-primary">
+                            <h3 className="font-semibold text-primary">
                               {section.title}
                             </h3>
                             <ul className="space-y-2">
@@ -486,11 +510,10 @@ export default function Header() {
                                 <li key={subItem.title}>
                                   <Link
                                     href={subItem.href}
+                                    target={subItem.target || "_self"}
                                     className="group flex items-center rounded-md px-3 py-1 text-sm transition-colors hover:bg-muted"
                                   >
-                                    <span className="group-hover:underline">
-                                      {subItem.title}
-                                    </span>
+                                    <span>{subItem.title}</span>
                                   </Link>
                                 </li>
                               ))}
@@ -512,7 +535,7 @@ export default function Header() {
               <span className="sr-only">Search</span>
             </Button> */}
             <Button asChild size="sm" className="hidden sm:inline-flex">
-              <Link href="https://admission.charusat.ac.in" z>
+              <Link href="https://admission.charusat.ac.in" target="_blank">
                 Apply Now
               </Link>
             </Button>
