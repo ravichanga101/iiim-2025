@@ -21,7 +21,7 @@ import {
   ArrowRight,
   Calendar,
   Award,
-  Briefcase,
+  IndianRupee,
 } from "lucide-react";
 
 export function AnimatedPrograms() {
@@ -41,7 +41,7 @@ export function AnimatedPrograms() {
           { icon: Clock, text: "2 Years Full-time" },
           { icon: Calendar, text: "June Intake" },
           { icon: Award, text: "AICTE Approved" },
-          { icon: Briefcase, text: "Industry Internship" },
+          { icon: IndianRupee, text: "₹2,00,000 / year" },
         ],
       },
       {
@@ -56,7 +56,7 @@ export function AnimatedPrograms() {
           { icon: Clock, text: "3 Years Full-time" },
           { icon: Calendar, text: "June Intake" },
           { icon: Award, text: "UGC Approved" },
-          { icon: Briefcase, text: "Summer Internship" },
+          { icon: IndianRupee, text: "Summer Internship" },
         ],
       },
       {
@@ -71,7 +71,7 @@ export function AnimatedPrograms() {
           { icon: Clock, text: "18 Months" },
           { icon: Calendar, text: "Weekend Classes" },
           { icon: Award, text: "AICTE Approved" },
-          { icon: Briefcase, text: "Industry Projects" },
+          { icon: IndianRupee, text: "Industry Projects" },
         ],
       },
     ],
@@ -87,7 +87,7 @@ export function AnimatedPrograms() {
           { icon: Clock, text: "2 Years Full-time" },
           { icon: Calendar, text: "June Intake" },
           { icon: Award, text: "AICTE Approved" },
-          { icon: Briefcase, text: "Industry Internship" },
+          { icon: IndianRupee, text: "Industry Internship" },
         ],
       },
       {
@@ -101,7 +101,7 @@ export function AnimatedPrograms() {
           { icon: Clock, text: "18 Months" },
           { icon: Calendar, text: "Weekend Classes" },
           { icon: Award, text: "AICTE Approved" },
-          { icon: Briefcase, text: "Industry Projects" },
+          { icon: IndianRupee, text: "Industry Projects" },
         ],
       },
     ],
@@ -117,14 +117,17 @@ export function AnimatedPrograms() {
           { icon: Clock, text: "3 Years Full-time" },
           { icon: Calendar, text: "June Intake" },
           { icon: Award, text: "UGC Approved" },
-          { icon: Briefcase, text: "Summer Internship" },
+          { icon: IndianRupee, text: "Summer Internship" },
         ],
       },
     ],
   };
 
   return (
-    <section className="py-16 md:py-24 bg-gradient-to-b from-white to-muted/20">
+    <section
+      className="py-16 md:py-24 bg-gradient-to-b from-white to-muted/20"
+      id="programs"
+    >
       <div className="container space-y-12">
         <div className="flex flex-col items-center justify-center space-y-4 text-center">
           <div className="inline-block rounded-lg bg-primary/10 px-3 py-1 text-sm text-primary">

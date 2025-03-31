@@ -23,14 +23,14 @@ export default function FacultyPage() {
             </div>
           </div>
         </section>
-        <div className="container py-4 text-right">
+        {/* <div className="container py-4 text-right">
           <Link href="/" varient="outline" size="sm" className="text-sm">
             ← Back
           </Link>
-        </div>
+        </div> */}
 
         <section className="container py-12">
-          <div className="mb-8 flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between">
+          {/* <div className="mb-8 flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between">
             <Tabs defaultValue="all" className="w-full max-w-md">
               <TabsList className="grid w-full grid-cols-5">
                 <TabsTrigger value="all">All</TabsTrigger>
@@ -40,25 +40,25 @@ export default function FacultyPage() {
                 <TabsTrigger value="non-teaching">Non Teaching</TabsTrigger>
               </TabsList>
             </Tabs>
-            {/* <div className="relative max-w-sm">
+             <div className="relative max-w-sm">
               <Search className="absolute left-2.5 top-2.5 h-4 w-4 text-muted-foreground" />
               <Input
                 type="search"
                 placeholder="Search faculty..."
                 className="pl-8"
               />
-            </div> */}
-          </div>
+            </div> 
+          </div> */}
 
           <Tabs defaultValue="all">
             <TabsContent value="all" className="mt-0">
-              <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
+              <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-4 xl:grid-cols-4">
                 {facultyMembers.map((faculty) => (
                   <FacultyCard key={faculty.id} faculty={faculty} />
                 ))}
               </div>
             </TabsContent>
-            <TabsContent value="professors" className="mt-0">
+            {/* <TabsContent value="professors" className="mt-0">
               <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
                 {facultyMembers
                   .filter(
@@ -89,7 +89,7 @@ export default function FacultyPage() {
                     <FacultyCard key={faculty.id} faculty={faculty} />
                   ))}
               </div>
-            </TabsContent>
+            </TabsContent> */}
           </Tabs>
         </section>
       </main>
