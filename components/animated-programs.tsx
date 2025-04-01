@@ -75,7 +75,7 @@ export function AnimatedPrograms() {
         ],
       },
       {
-        title: "Executive MBA",
+        title: "Executive MBA 1",
         subtitle: "For Working Professionals",
         description:
           "A flexible program designed for working professionals to enhance their management skills while continuing their careers.",
