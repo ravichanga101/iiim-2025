@@ -40,8 +40,9 @@ function footer() {
             </p>
             <div className="flex items-center gap-4">
               <Link
-                href="#"
+                href="https://www.facebook.com/i2imcharusat/"
                 className="text-muted-foreground hover:text-primary"
+                target="_blank"
               >
                 <span className="sr-only">Facebook</span>
                 <svg
@@ -59,7 +60,7 @@ function footer() {
                   <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path>
                 </svg>
               </Link>
-              <Link
+              {/* <Link
                 href="#"
                 className="text-muted-foreground hover:text-primary"
               >
@@ -78,10 +79,55 @@ function footer() {
                 >
                   <path d="M22 4s-.7 2.1-2 3.4c1.6 10-9.4 17.3-18 11.6 2.2.1 4.4-.6 6-2C3 15.5.5 9.6 3 5c2.2 2.6 5.6 4.1 9 4-.9-4.2 4-6.6 7-3.8 1.1 0 3-1.2 3-1.2z"></path>
                 </svg>
+              </Link> */}
+              {/* <Link
+                href="https://x.com" // Replace with the actual X profile link
+                className="text-muted-foreground hover:text-primary"
+                target="_blank"
+              >
+                <span className="sr-only">X</span>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  strokeWidth="2"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  className="h-5 w-5"
+                >
+                  <path d="M17 3L7 21"></path>
+                  <path d="M7 3l10 18"></path>
+                </svg>
+              </Link> */}
+              <Link
+                href="https://www.youtube.com/@iiim-charusat?feature=shared"
+                className="text-muted-foreground hover:text-primary"
+                target="_blank"
+              >
+                <span className="sr-only">YouTube</span>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  strokeWidth="2"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  className="h-5 w-5"
+                >
+                  <path d="M22.54 6.42A2.78 2.78 0 0 0 20.8 4.7C19.2 4.25 12 4.25 12 4.25s-7.2 0-8.8.45a2.78 2.78 0 0 0-1.74 1.72A29.94 29.94 0 0 0 1 12a29.94 29.94 0 0 0 .46 5.33 2.78 2.78 0 0 0 1.74 1.72c1.6.45 8.8.45 8.8.45s7.2 0 8.8-.45a2.78 2.78 0 0 0 1.74-1.72A29.94 29.94 0 0 0 23 12a29.94 29.94 0 0 0-.46-5.33z"></path>
+                  <polygon points="9.75 15.02 15.5 12 9.75 8.98 9.75 15.02"></polygon>
+                </svg>
               </Link>
               <Link
-                href="#"
+                href="https://www.instagram.com/iiim_charusat?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
                 className="text-muted-foreground hover:text-primary"
+                target="_blank"
               >
                 <span className="sr-only">Instagram</span>
                 <svg
@@ -102,8 +148,9 @@ function footer() {
                 </svg>
               </Link>
               <Link
-                href="#"
+                href="https://www.linkedin.com/school/indukaka-ipcowala-institute-of-management/ "
                 className="text-muted-foreground hover:text-primary"
+                target="_blank"
               >
                 <span className="sr-only">LinkedIn</span>
                 <svg
@@ -164,7 +211,7 @@ function footer() {
               </li>
               <li>
                 <Link
-                  href="https://www.charusat.ac.in/charusat-newsletter"
+                  href="#"
                   target="_blank"
                   className="text-muted-foreground hover:text-primary"
                 >
@@ -178,7 +225,7 @@ function footer() {
             <ul className="space-y-2 text-sm">
               <li>
                 <Link
-                  href="#"
+                  href="http://egov.charusat"
                   target="_blank"
                   className="text-muted-foreground hover:text-primary"
                 >
@@ -187,10 +234,11 @@ function footer() {
               </li>
               <li>
                 <Link
-                  href="#"
+                  href="https://charusat.edu.in:912/OthPaymentApp/"
                   className="text-muted-foreground hover:text-primary"
+                  target="_blank"
                 >
-                  Online Transcript
+                  Transcript
                 </Link>
               </li>
               {/* <li>
@@ -212,8 +260,9 @@ function footer() {
               </li>
               <li>
                 <Link
-                  href="#"
+                  href="https://drive.google.com/drive/folders/1ZB0dOEH_F2UwH1I9lPhfhEcYYQ2lbnx3"
                   className="text-muted-foreground hover:text-primary"
+                  target="_blank"
                 >
                   Syllabus
                 </Link>
@@ -221,7 +270,8 @@ function footer() {
 
               <li>
                 <Link
-                  href="#"
+                  href="https://drive.google.com/drive/folders/10-XqFw6ISXnDeyajK8oB3YIIj6NfrIyO"
+                  target="_blank"
                   className="text-muted-foreground hover:text-primary"
                 >
                   Downloads
