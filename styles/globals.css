@@ -2,8 +2,22 @@
 @tailwind components;
 @tailwind utilities;
 
+* {
+  box-sizing: border-box;
+  outline: 20px solid black;
+}
+html,
 body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
   font-family: Arial, Helvetica, sans-serif;
+  width: 100%; /* Ensure body doesn't exceed viewport width */
+}
+img,
+video {
+  max-width: 100%; /* Prevent media from overflowing */
+  height: auto;
 }
 
 @layer utilities {

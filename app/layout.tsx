@@ -28,11 +28,13 @@ export default function RootLayout({
           disableTransitionOnChange
         >
           <div className="flex min-h-screen flex-col">
-            <Header />
-
-            <main className="flex-1 w-full">{children}</main>
-
-            <Footer />
+            <main className="flex-1 w-full overflow-hidden">
+              <div className="container mx-auto px-4">
+                <Header />
+                {children}
+                <Footer />
+              </div>
+            </main>
           </div>
         </ThemeProvider>
       </body>
