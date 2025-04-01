@@ -195,11 +195,11 @@ export function CollaborationsSection() {
               <span>Industry Internships</span>
             </li>
           </ul>
-          <div className="mt-6">
+          {/* <div className="mt-6">
             <Link href="/collaborations">
               <Button>Get more details</Button>
             </Link>
-          </div>
+          </div> */}
         </div>
       </div>
     </section>
