@@ -29,7 +29,7 @@ export default function RootLayout({
         >
           <div className="flex min-h-screen flex-col">
             <main className="flex-1 w-full overflow-hidden">
-              <div className="container mx-auto px-4">
+              <div className="mx-auto ">
                 <Header />
                 {children}
                 <Footer />
