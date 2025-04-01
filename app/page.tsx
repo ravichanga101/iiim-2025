@@ -35,7 +35,6 @@ export default function Home() {
         {/* Learning and Development Section */}
         <section className="container py-12 md:py-12 lg:py-12 bg-primary/5">
           <div className="mx-auto max-w-6xl space-y-16">
-            {/* Section Header */}
             <div className="text-center space-y-4">
               <div className="inline-block rounded-lg bg-primary/10 px-3 py-1 text-sm text-primary">
                 Best Practices
@@ -50,9 +49,7 @@ export default function Home() {
               </p>
             </div>
 
-            {/* Features Grid */}
             <div className="grid grid-cols-1 gap-12 md:grid-cols-2 lg:grid-cols-3">
-              {/* Project-Based Learning */}
               <div className="flex flex-col items-center text-center space-y-4">
                 <div className="flex h-16 w-16 items-center justify-center rounded-full bg-primary/10 text-primary">
                   <svg
@@ -80,7 +77,6 @@ export default function Home() {
                 </p>
               </div>
 
-              {/* State-of-the-Art Research Facilities */}
               <div className="flex flex-col items-center text-center space-y-4">
                 <div className="flex h-16 w-16 items-center justify-center rounded-full bg-primary/10 text-primary">
                   <svg
@@ -107,7 +103,6 @@ export default function Home() {
                 </p>
               </div>
 
-              {/* Holistic Development */}
               <div className="flex flex-col items-center text-center space-y-4">
                 <div className="flex h-16 w-16 items-center justify-center rounded-full bg-primary/10 text-primary">
                   <svg
