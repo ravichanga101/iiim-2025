@@ -221,7 +221,11 @@ const menuItems = [
       {
         title: "Academic Resources",
         items: [
-          { title: "Academic Calendar", href: "/academics/calendar" },
+          {
+            title: "Academic Calendar",
+            href: "/assets/files/IIIM-Calendar-2024-25.pdf",
+            target: "_blank",
+          },
           {
             title: "Syllabus",
             href: "https://drive.google.com/drive/folders/1ZB0dOEH_F2UwH1I9lPhfhEcYYQ2lbnx3",
