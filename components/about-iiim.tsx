@@ -61,8 +61,8 @@ function AboutIIIM() {
           <div className="rounded-lg bg-primary/10 p-6 shadow-md">
             <h3 className="text-xl font-bold text-primary">Vision</h3>
             <p className="mt-4 text-muted-foreground md:text-lg">
-              Apply now to IIIM-CHARUSAT and kickstart your career with top
-              companies across industries.
+              To emerge as an eminent management institute for meeting the needs
+              of society by creation and dissemination of world-class knowledge.
             </p>
           </div>
 
@@ -70,7 +70,7 @@ function AboutIIIM() {
           <div className="rounded-lg bg-primary/10 p-6 shadow-md">
             <h3 className="text-xl font-bold text-primary">Mission</h3>
             <p className="mt-4 text-muted-foreground md:text-lg">
-              To develop leaders with excellent entrepreneurial and managerial
+              To develop leaders with excellent enterpreneurial and managerial
               qualities.
             </p>
           </div>
