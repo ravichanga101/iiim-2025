@@ -74,29 +74,14 @@ export function AnimatedPrograms() {
           { icon: IndianRupee, text: "Industry Projects" },
         ],
       },
-    ],
-    postgraduate: [
-      {
-        title: "MBA",
-        subtitle: "Master of Business Administration",
-        description:
-          "A two-year full-time program with specializations in Marketing, Finance, Human Resources, and Operations Management.",
-        icon: GraduationCap,
-        image: "/placeholder.svg?height=300&width=500",
-        features: [
-          { icon: Clock, text: "2 Years Full-time" },
-          { icon: Calendar, text: "June Intake" },
-          { icon: Award, text: "AICTE Approved" },
-          { icon: IndianRupee, text: "Industry Internship" },
-        ],
-      },
       {
         title: "Executive MBA",
         subtitle: "For Working Professionals",
         description:
           "A flexible program designed for working professionals to enhance their management skills while continuing their careers.",
         icon: Users,
-        image: "/placeholder.svg?height=300&width=500",
+        image:
+          "https://images.unsplash.com/photo-1499750310107-5fef28a66643?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D?height=300&width=500",
         features: [
           { icon: Clock, text: "18 Months" },
           { icon: Calendar, text: "Weekend Classes" },
@@ -105,22 +90,52 @@ export function AnimatedPrograms() {
         ],
       },
     ],
-    undergraduate: [
-      {
-        title: "BBA",
-        subtitle: "Bachelor of Business Administration",
-        description:
-          "A three-year undergraduate program focusing on fundamental business concepts and management principles.",
-        icon: BookOpen,
-        image: "/placeholder.svg?height=300&width=500",
-        features: [
-          { icon: Clock, text: "3 Years Full-time" },
-          { icon: Calendar, text: "June Intake" },
-          { icon: Award, text: "UGC Approved" },
-          { icon: IndianRupee, text: "Summer Internship" },
-        ],
-      },
-    ],
+    // postgraduate: [
+    //   {
+    //     title: "MBA",
+    //     subtitle: "Master of Business Administration",
+    //     description:
+    //       "A two-year full-time program with specializations in Marketing, Finance, Human Resources, and Operations Management.",
+    //     icon: GraduationCap,
+    //     image: "/placeholder.svg?height=300&width=500",
+    //     features: [
+    //       { icon: Clock, text: "2 Years Full-time" },
+    //       { icon: Calendar, text: "June Intake" },
+    //       { icon: Award, text: "AICTE Approved" },
+    //       { icon: IndianRupee, text: "Industry Internship" },
+    //     ],
+    //   },
+    //   {
+    //     title: "Executive MBA",
+    //     subtitle: "For Working Professionals",
+    //     description:
+    //       "A flexible program designed for working professionals to enhance their management skills while continuing their careers.",
+    //     icon: Users,
+    //     image: "/placeholder.svg?height=300&width=500",
+    //     features: [
+    //       { icon: Clock, text: "18 Months" },
+    //       { icon: Calendar, text: "Weekend Classes" },
+    //       { icon: Award, text: "AICTE Approved" },
+    //       { icon: IndianRupee, text: "Industry Projects" },
+    //     ],
+    //   },
+    // ],
+    // undergraduate: [
+    //   {
+    //     title: "BBA",
+    //     subtitle: "Bachelor of Business Administration",
+    //     description:
+    //       "A three-year undergraduate program focusing on fundamental business concepts and management principles.",
+    //     icon: BookOpen,
+    //     image: "/placeholder.svg?height=300&width=500",
+    //     features: [
+    //       { icon: Clock, text: "3 Years Full-time" },
+    //       { icon: Calendar, text: "June Intake" },
+    //       { icon: Award, text: "UGC Approved" },
+    //       { icon: IndianRupee, text: "Summer Internship" },
+    //     ],
+    //   },
+    // ],
   };
 
   return (
@@ -142,7 +157,7 @@ export function AnimatedPrograms() {
             business environment.
           </p>
 
-          <Tabs
+          {/* <Tabs
             defaultValue="all"
             className="w-full max-w-md"
             onValueChange={setActiveTab}
@@ -152,7 +167,7 @@ export function AnimatedPrograms() {
               <TabsTrigger value="postgraduate">Postgraduate</TabsTrigger>
               <TabsTrigger value="undergraduate">Undergraduate</TabsTrigger>
             </TabsList>
-          </Tabs>
+          </Tabs> */}
         </div>
 
         <AnimatePresence mode="wait">
@@ -162,7 +177,7 @@ export function AnimatedPrograms() {
             animate={{ opacity: 1, y: 0 }}
             exit={{ opacity: 0, y: -20 }}
             transition={{ duration: 0.3 }}
-            className="grid gap-8 md:grid-cols-2 lg:grid-cols-3"
+            className="grid gap-4 md:grid-cols-3 lg:grid-cols-4"
           >
             {programs[activeTab].map((program, index) => (
               <motion.div
@@ -203,7 +218,7 @@ export function AnimatedPrograms() {
                       {program.features.map((feature, idx) => (
                         <div key={idx} className="flex items-center gap-2">
                           <feature.icon className="h-4 w-4 text-primary" />
-                          <span className="text-sm">{feature.text}</span>
+                          <span className="text-xs">{feature.text}</span>
                         </div>
                       ))}
                     </div>
