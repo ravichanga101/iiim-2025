@@ -176,7 +176,11 @@ const menuItems = [
       {
         title: "Student Resources",
         items: [
-          { title: "Student Activities", href: "/academics/postgraduate" },
+          {
+            title: "Student Activities",
+            href: "/assets/files/Student-Activities.pdf",
+            target: "_blank",
+          },
           {
             title: "Students Handbook",
             href: "https://drive.google.com/drive/folders/1QbifpxXCIHsIMx09Hsnkc71fOvKb-v_c",
@@ -185,11 +189,13 @@ const menuItems = [
           {
             title: "Community Extension Services",
             href: "https://drive.google.com/drive/folders/1ZB0dOEH_F2UwH1I9lPhfhEcYYQ2lbnx3",
+            target: "_blank",
           },
 
           {
             title: "Guidance & Counseling",
-            href: "/academics/certificate",
+            href: "/assets/files/Guidance-Counseling.pdf",
+            target: "_blank",
           },
         ],
       },
@@ -208,7 +214,7 @@ const menuItems = [
           },
           {
             title: "e-Governance",
-            href: "/academics/departments/business",
+            href: "http://egov.charusat/",
             target: "_blank",
           },
           {
@@ -314,15 +320,16 @@ export default function Header() {
   // Handle desktop mega menu
   const handleMouseEnter = (title: string) => {
     if (!isMobile) {
-      // if (hoverTimeout) {
-      //   clearTimeout(hoverTimeout); // Clear any pending close timeout
-      //   setHoverTimeout(null);
-      // }
+      if (hoverTimeout) {
+        clearTimeout(hoverTimeout); // Clear any pending close timeout
+        setHoverTimeout(null);
+      }
       setOpenMenu(title);
     }
   };
 
   const handleMouseLeave = () => {
+    console.log("mouse leave event");
     if (!isMobile) {
       const timeout = setTimeout(() => {
         setOpenMenu(null); // Close the menu after a delay
