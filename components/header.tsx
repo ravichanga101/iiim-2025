@@ -561,7 +561,7 @@ export default function Header() {
       >
         <div
           className={cn(
-            "fixed inset-x-0 top-16 z-40 h-[calc(100vh-4rem)] overflow-y-auto bg-background pb-20 shadow-lg transition-transform duration-300 ease-in-out md:hidden",
+            "fixed inset-x-0 top-2 z-40 h-[calc(100vh-4rem)] overflow-y-auto bg-background pb-2 shadow-lg transition-transform duration-300 ease-in-out md:hidden",
             mobileMenuOpen ? "translate-x-0" : "translate-x-full"
           )}
         >
@@ -596,7 +596,7 @@ export default function Header() {
                 ) : (
                   <Link
                     href={item.href}
-                    className="block py-3 text-lg font-medium"
+                    className="block py-2 text-lg font-medium"
                     onClick={() => setMobileMenuOpen(false)}
                   >
                     {item.title}
