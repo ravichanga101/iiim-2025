@@ -103,14 +103,14 @@ export default function FacultyPage() {
 
 function FacultyCard({ faculty }) {
   return (
-    <div className="group overflow-hidden rounded-lg border bg-background shadow-sm transition-all hover:shadow-md">
+    <div className="group overflow-hidden  border bg-background shadow-sm transition-all hover:shadow-md">
       <div className="aspect-[1/1] overflow-hidden">
         <Image
           src={faculty.image || "/placeholder.svg"}
           alt={faculty.name}
           width={275}
           height={275}
-          className="h-full w-full object-cover transition-transform duration-300 group-hover:scale-105"
+          className="h-full w-full object-cover border-2 border-black transition-transform duration-300"
         />
       </div>
       <div className="p-4">
@@ -134,7 +134,7 @@ const facultyMembers = [
   {
     id: 1,
     name: "Dr. Reshma Sable",
-    designation: "Professor & I/C. Dean(FMS)",
+    designation: "Dean(FMS)",
     qualification: "Ph.D., MBA(HRM),M.Ed.,MSc",
     specialization: "Organisational Behaviour, Emotional Intelligence",
     image: "/assets/faculty_photo/ReshmaSable.webp?height=275&width=275",
@@ -143,8 +143,9 @@ const facultyMembers = [
   {
     id: 2,
     name: "Dr. Binit Patel ",
-    designation: "Professor & I/c. Principal",
-    qualification: "Ph.D., MBA(Marketing),BE(Computer Science)",
+    designation: "Principal,IIIM",
+    qualification:
+      "Ph.D., MBA(Marketing),BE(Computer Science), EP(BA),CORe - Harvard Business School (Online)",
     specialization: "Marketing, Consumer Behavior, General & IT Management",
     image: "/assets/faculty_photo/BinitPatel.webp",
     email: "principal.iiim@charusat.ac.in",
@@ -152,7 +153,7 @@ const facultyMembers = [
   {
     id: 3,
     name: "Dr. Rajesh Sadhwani",
-    designation: "Associate Professor",
+    designation: "Assistant Professor",
     qualification: "Ph.D., MBA, M.Com",
     specialization: "Financial Management, Investment Analysis",
     image: "/assets/faculty_photo/RajeshSadhwani.webp",
@@ -161,7 +162,7 @@ const facultyMembers = [
   {
     id: 4,
     name: "Dr. Mukesh Pal",
-    designation: "Associate Professor",
+    designation: "Assistant Professor",
     qualification: "Ph.D., MBA",
     specialization: "Human Resource Management, Organizational Behavior",
     image: "/assets/faculty_photo/Mukesh%20Pal.jpg",
@@ -294,15 +295,15 @@ const facultyMembers = [
     image: "/assets/faculty_photo/Gopalbhai.png",
     email: "gopalshah.mba@charusat.ac.in",
   },
-  {
-    id: 19,
-    name: "Ms. Aditi Mishra",
-    designation: "Assistant Professor",
-    qualification: "Ph. D., M.Sc.(IT), M.Sc. (Statistics)",
-    specialization: "Data Mining, Statistical Application, Data Analytics",
-    image: "/assets/faculty_photo/aditi-mishra.png",
-    email: "aditimishra.mba@charusat.ac.in",
-  },
+  // {
+  //   id: 19,
+  //   name: "Ms. Aditi Mishra",
+  //   designation: "Assistant Professor",
+  //   qualification: "Ph. D., M.Sc.(IT), M.Sc. (Statistics)",
+  //   specialization: "Data Mining, Statistical Application, Data Analytics",
+  //   image: "/assets/faculty_photo/aditi-mishra.png",
+  //   email: "aditimishra.mba@charusat.ac.in",
+  // },
   {
     id: 20,
     name: "Khushali N Pathak",

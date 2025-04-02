@@ -30,21 +30,6 @@ export function AnimatedPrograms() {
   const programs = {
     all: [
       {
-        title: "MBA",
-        subtitle: "Master of Business Administration",
-        description:
-          "A two-year full-time program with specializations in Marketing, Finance, Human Resources, and Business Analitics.",
-        icon: GraduationCap,
-        image:
-          "https://images.unsplash.com/photo-1552664730-d307ca884978?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D?height=300&width=500?height=300&width=500",
-        features: [
-          { icon: Clock, text: "2 Years" },
-          { icon: Calendar, text: "July" },
-          { icon: Award, text: "UGC Approved" },
-          { icon: IndianRupee, text: "₹1,45,000 / year" },
-        ],
-      },
-      {
         title: "BBA",
         subtitle: "Bachelor of Business Administration",
         description:
@@ -60,7 +45,23 @@ export function AnimatedPrograms() {
         ],
       },
       {
-        title: "Executive MBA",
+        title: "MBA",
+        subtitle: "Master of Business Administration",
+        description:
+          "A two-year full-time program with specializations in Marketing, Finance, Human Resources, and Business Analitics.",
+        icon: GraduationCap,
+        image:
+          "https://images.unsplash.com/photo-1552664730-d307ca884978?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D?height=300&width=500?height=300&width=500",
+        features: [
+          { icon: Clock, text: "2 Years" },
+          { icon: Calendar, text: "July" },
+          { icon: Award, text: "UGC Approved" },
+          { icon: IndianRupee, text: "₹1,45,000 / year" },
+        ],
+      },
+
+      {
+        title: "M.Sc.(Management)",
         subtitle: "For Working Professionals",
         description:
           "A flexible program designed for working professionals to enhance their management skills while continuing their careers.",
@@ -138,8 +139,8 @@ export function AnimatedPrograms() {
           </h2>
           <p className="max-w-[700px] text-muted-foreground md:text-xl">
             IIIM offers a range of undergraduate and postgraduate programs
-            designed to prepare students for leadership roles in the global
-            business environment.
+            designed to prepare students for leadership/Entrepreneurial roles in
+            the global business environment.
           </p>
 
           {/* <Tabs
