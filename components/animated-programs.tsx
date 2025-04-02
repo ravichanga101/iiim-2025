@@ -41,7 +41,7 @@ export function AnimatedPrograms() {
           { icon: Clock, text: "3/4 Years" },
           { icon: Calendar, text: "June / July" },
           { icon: Award, text: "UGC/AICTE" },
-          { icon: IndianRupee, text: "₹1,00,000 / year" },
+          { icon: IndianRupee, text: "1,00,000 / year" },
         ],
       },
       {
@@ -56,7 +56,7 @@ export function AnimatedPrograms() {
           { icon: Clock, text: "2 Years" },
           { icon: Calendar, text: "July / August" },
           { icon: Award, text: "UGC Approved" },
-          { icon: IndianRupee, text: "₹1,45,000 / year" },
+          { icon: IndianRupee, text: "1,45,000 / year" },
         ],
       },
 
@@ -72,7 +72,7 @@ export function AnimatedPrograms() {
           { icon: Clock, text: "2 Years" },
           { icon: Calendar, text: "July / August" },
           { icon: Award, text: "UGC" },
-          { icon: IndianRupee, text: "₹1,45,000 / year" },
+          { icon: IndianRupee, text: "1,45,000 / year" },
         ],
       },
     ],
@@ -163,7 +163,7 @@ export function AnimatedPrograms() {
             animate={{ opacity: 1, y: 0 }}
             exit={{ opacity: 0, y: -20 }}
             transition={{ duration: 0.3 }}
-            className="grid gap-4 md:grid-cols-3 lg:grid-cols-4"
+            className="grid gap-4 md:grid-cols-3 lg:grid-cols-3 justify-center mx-auto"
           >
             {programs[activeTab].map((program, index) => (
               <motion.div
