@@ -50,7 +50,7 @@ export function TestimonialsSection() {
     <section className="py-16 md:py-24 bg-primary/5">
       <div className="container">
         <div className="flex flex-col items-center justify-center space-y-4 text-center mb-12">
-          <div className="inline-block rounded-lg bg-primary/10 px-3 py-1 text-sm text-primary">
+          <div className="inline-block rounded-lg bg-primary/10 px-3 py-1 text-2xl font-bold text-primary">
             Success Stories
           </div>
           <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl">
