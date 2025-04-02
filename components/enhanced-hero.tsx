@@ -4,6 +4,7 @@ import { useRef, useEffect, useState } from "react";
 import { Button } from "@/components/ui/button";
 import { ArrowRight } from "lucide-react";
 import { motion } from "framer-motion";
+import Link from "next/link";
 
 export function EnhancedHero() {
   const [currentSlide, setCurrentSlide] = useState(0);
@@ -104,10 +105,24 @@ export function EnhancedHero() {
           </motion.div>
 
           <div className="flex flex-col gap-4 min-[400px]:flex-row justify-center">
-            <Button size="lg" className="bg-primary hover:bg-primary/90 group">
-              {slides[currentSlide].cta}
-              <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
-            </Button>
+            {/* <Link
+              href="https://admission.charusat.ac.in/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="group inline-flex items-center justify-center rounded-lg bg-secondary px-6 py-3  
+               font-semibold text-primary transition hover:bg-secondary/90"
+            > */}
+            <Link href="https://admission.charusat.ac.in/" target="_blank">
+              <Button
+                size="lg"
+                className="bg-primary hover:bg-primary/90 group"
+              >
+                {slides[currentSlide].cta}
+                <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
+              </Button>
+            </Link>
+
+            {/* </Link> */}
             {/* <Button
               size="lg"
               variant="outline"
