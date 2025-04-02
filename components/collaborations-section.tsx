@@ -4,6 +4,8 @@ import { Check } from "lucide-react"; // Import the tick mark icon
 
 export function CollaborationsSection() {
   const collaborations = [
+    "Assumption University, Thailand",
+    "Universitas Sumatera, Utara",
     "University of Exeter, UK",
     "PCSD@OECD, France",
     "British Council | IELTS",
