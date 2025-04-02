@@ -176,25 +176,45 @@ const menuItems = [
       {
         title: "Student Resources",
         items: [
-          {
-            title: "Student Activities",
-            href: "/assets/files/Student-Activities.pdf",
-            target: "_blank",
-          },
+          // {
+          //   title: "Student Activities",
+          //   href: "/assets/files/Student-Activities.pdf",
+          //   target: "_blank",
+          // },
           {
             title: "Students Handbook",
             href: "https://drive.google.com/drive/folders/1QbifpxXCIHsIMx09Hsnkc71fOvKb-v_c",
             target: "_blank",
           },
+          // {
+          //   title: "Community Extension Services",
+          //   href: "https://drive.google.com/drive/folders/1ZB0dOEH_F2UwH1I9lPhfhEcYYQ2lbnx3",
+          //   target: "_blank",
+          // },
+
+          // {
+          //   title: "Guidance & Counseling",
+          //   href: "/assets/files/Guidance-Counseling.pdf",
+          //   target: "_blank",
+          // },
           {
-            title: "Community Extension Services",
+            title: "Academic Calendar",
+            href: "/assets/files/IIIM-Calendar-2024-25.pdf",
+            target: "_blank",
+          },
+          {
+            title: "Syllabus",
             href: "https://drive.google.com/drive/folders/1ZB0dOEH_F2UwH1I9lPhfhEcYYQ2lbnx3",
             target: "_blank",
           },
-
           {
-            title: "Guidance & Counseling",
-            href: "/assets/files/Guidance-Counseling.pdf",
+            title: "Downloads",
+            href: "https://drive.google.com/drive/folders/10-XqFw6ISXnDeyajK8oB3YIIj6NfrIyO",
+            target: "_blank",
+          },
+          {
+            title: "Old-Question Papers",
+            href: "https://drive.google.com/drive/u/0/folders/1U1hIPybwqdsF9Nn_K6QKom0Kg5yAWCaW",
             target: "_blank",
           },
         ],
@@ -224,31 +244,31 @@ const menuItems = [
           },
         ],
       },
-      {
-        title: "Academic Resources",
-        items: [
-          {
-            title: "Academic Calendar",
-            href: "/assets/files/IIIM-Calendar-2024-25.pdf",
-            target: "_blank",
-          },
-          {
-            title: "Syllabus",
-            href: "https://drive.google.com/drive/folders/1ZB0dOEH_F2UwH1I9lPhfhEcYYQ2lbnx3",
-            target: "_blank",
-          },
-          {
-            title: "Downloads",
-            href: "https://drive.google.com/drive/folders/10-XqFw6ISXnDeyajK8oB3YIIj6NfrIyO",
-            target: "_blank",
-          },
-          {
-            title: "Old-Question Papers",
-            href: "https://drive.google.com/drive/u/0/folders/1U1hIPybwqdsF9Nn_K6QKom0Kg5yAWCaW",
-            target: "_blank",
-          },
-        ],
-      },
+      // {
+      //   title: "Academic Resources",
+      //   items: [
+      //     {
+      //       title: "Academic Calendar",
+      //       href: "/assets/files/IIIM-Calendar-2024-25.pdf",
+      //       target: "_blank",
+      //     },
+      //     {
+      //       title: "Syllabus",
+      //       href: "https://drive.google.com/drive/folders/1ZB0dOEH_F2UwH1I9lPhfhEcYYQ2lbnx3",
+      //       target: "_blank",
+      //     },
+      //     {
+      //       title: "Downloads",
+      //       href: "https://drive.google.com/drive/folders/10-XqFw6ISXnDeyajK8oB3YIIj6NfrIyO",
+      //       target: "_blank",
+      //     },
+      //     {
+      //       title: "Old-Question Papers",
+      //       href: "https://drive.google.com/drive/u/0/folders/1U1hIPybwqdsF9Nn_K6QKom0Kg5yAWCaW",
+      //       target: "_blank",
+      //     },
+      //   ],
+      // },
     ],
   },
   {
@@ -483,7 +503,10 @@ export default function Header() {
             </nav>
 
             {/* Mega Menu Container - Positioned outside the nav to avoid overflow issues */}
-            <div className="absolute left-0 right-0 top-full z-50">
+            <div
+              className="absolute left-0 right-0 top-full z-50 mx-auto"
+              style={{ width: "90%" }}
+            >
               {menuItems.map((item) =>
                 item.submenu && openMenu === item.title ? (
                   <div
@@ -495,16 +518,17 @@ export default function Header() {
                   >
                     <div
                       className={cn(
-                        "mx-auto  w-full rounded-md border bg-card p-6 shadow-lg",
+                        "mx-auto   rounded-md border bg-card p-6 shadow-lg",
                         "transition-all duration-200 ease-in-out",
                         "opacity-100 translate-y-0"
                       )}
                       style={{
                         maxHeight: "calc(100vh - 12rem)",
                         overflowY: "auto",
+                        width: "50%",
                       }}
                     >
-                      <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3 mx-10">
+                      <div className="grid grid-cols-1 gap-12 sm:grid-cols-2 lg:grid-cols-2 mx-10">
                         {item.submenu.map((section) => (
                           <div key={section.title} className="space-y-3">
                             <h3 className="font-semibold text-primary">
@@ -516,7 +540,7 @@ export default function Header() {
                                   <Link
                                     href={subItem.href}
                                     target={subItem.target || "_self"}
-                                    className="group flex items-center rounded-md px-3 py-1 text-sm transition-colors hover:bg-muted"
+                                    className="group flex items-center rounded-md px-4 py-1 text-sm transition-colors hover:bg-muted"
                                   >
                                     <span>{subItem.title}</span>
                                   </Link>
