@@ -6,10 +6,10 @@ const campusFeatures = [
     text: "Modern classrooms and lecture halls",
     icon: BookOpen,
   },
-  {
-    text: "Well-equipped computer labs",
-    icon: Users,
-  },
+  // {
+  //   text: "Well-equipped computer labs",
+  //   icon: Users,
+  // },
   {
     text: "Comprehensive library resources",
     icon: BookOpen,
