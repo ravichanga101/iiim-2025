@@ -8,7 +8,7 @@ function AboutIIIM() {
     <section className="container py-6 md:py-18 lg:py-24">
       <div className="mx-auto grid  grid-cols-1 gap-8 md:grid-cols-2 md:gap-16">
         <div className="flex flex-col  space-y-4">
-          <div className="inline-block rounded-lg bg-primary/10 px-3 py-1 text-sm text-primary">
+          <div className="inline-block rounded-lg bg-primary/10 px-3 py-1 text-2xl font-bold text-primary">
             About IIIM
           </div>
           <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">
