@@ -1,17 +1,17 @@
-"use client"
+"use client";
 
-import { useEffect, useState, useRef } from "react"
-import { useInView } from "framer-motion"
-import { Award, BookOpen, Building, GraduationCap, Users } from "lucide-react"
+import { useEffect, useState, useRef } from "react";
+import { useInView } from "framer-motion";
+import { Award, BookOpen, Building, GraduationCap, Users } from "lucide-react";
 
 export function StatsCounter() {
-  const ref = useRef(null)
-  const isInView = useInView(ref, { once: true, amount: 0.3 })
+  const ref = useRef(null);
+  const isInView = useInView(ref, { once: true, amount: 0.3 });
 
   const stats = [
     {
       icon: GraduationCap,
-      value: 5000,
+      value: 2500,
       label: "Alumni Network",
       suffix: "+",
       color: "bg-primary/10 text-primary",
@@ -25,31 +25,34 @@ export function StatsCounter() {
     },
     {
       icon: Building,
-      value: 150,
+      value: 100,
       label: "Recruiting Companies",
       suffix: "+",
       color: "bg-emerald-100 text-emerald-700",
     },
     {
       icon: Award,
-      value: 25,
+      value: 19,
       label: "Years of Excellence",
       suffix: "+",
       color: "bg-blue-100 text-blue-700",
     },
     {
       icon: BookOpen,
-      value: 15,
+      value: 5,
       label: "Programs Offered",
       suffix: "+",
       color: "bg-purple-100 text-purple-700",
     },
-  ]
+  ];
 
   return (
     <section className="py-12 bg-muted/30">
       <div className="container">
-        <div ref={ref} className="grid grid-cols-2 gap-6 md:grid-cols-3 lg:grid-cols-5">
+        <div
+          ref={ref}
+          className="grid grid-cols-2 gap-6 md:grid-cols-3 lg:grid-cols-5"
+        >
           {stats.map((stat, index) => (
             <StatItem
               key={index}
@@ -65,37 +68,45 @@ export function StatsCounter() {
         </div>
       </div>
     </section>
-  )
+  );
 }
 
-function StatItem({ icon: Icon, value, label, suffix, color, isInView, delay }) {
-  const [count, setCount] = useState(0)
+function StatItem({
+  icon: Icon,
+  value,
+  label,
+  suffix,
+  color,
+  isInView,
+  delay,
+}) {
+  const [count, setCount] = useState(0);
 
   useEffect(() => {
     if (isInView) {
-      let start = 0
-      const end = value
-      const duration = 2000
-      const increment = end / (duration / 16) // 60fps
+      let start = 0;
+      const end = value;
+      const duration = 2000;
+      const increment = end / (duration / 16); // 60fps
 
       // Add delay based on item position
       const timer = setTimeout(() => {
         const counter = setInterval(() => {
-          start += increment
+          start += increment;
           if (start > end) {
-            setCount(end)
-            clearInterval(counter)
+            setCount(end);
+            clearInterval(counter);
           } else {
-            setCount(Math.floor(start))
+            setCount(Math.floor(start));
           }
-        }, 16)
+        }, 16);
 
-        return () => clearInterval(counter)
-      }, delay * 1000)
+        return () => clearInterval(counter);
+      }, delay * 1000);
 
-      return () => clearTimeout(timer)
+      return () => clearTimeout(timer);
     }
-  }, [isInView, value, delay])
+  }, [isInView, value, delay]);
 
   return (
     <div
@@ -115,6 +126,5 @@ function StatItem({ icon: Icon, value, label, suffix, color, isInView, delay }) 
       </div>
       <div className="text-sm text-muted-foreground mt-1">{label}</div>
     </div>
-  )
+  );
 }
-
