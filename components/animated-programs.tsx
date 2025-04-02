@@ -55,7 +55,7 @@ export function AnimatedPrograms() {
         features: [
           { icon: Clock, text: "3/4 Years" },
           { icon: Calendar, text: "June Intake" },
-          { icon: Award, text: "UGC/AICTE Approved" },
+          { icon: Award, text: "UGC/AICTE" },
           { icon: IndianRupee, text: "₹1,00,000 / year" },
         ],
       },
@@ -70,22 +70,7 @@ export function AnimatedPrograms() {
         features: [
           { icon: Clock, text: "18 Months" },
           { icon: Calendar, text: "Weekend Classes" },
-          { icon: Award, text: "AICTE Approved" },
-          { icon: IndianRupee, text: "Industry Projects" },
-        ],
-      },
-      {
-        title: "Executive MBA 1",
-        subtitle: "For Working Professionals",
-        description:
-          "A flexible program designed for working professionals to enhance their management skills while continuing their careers.",
-        icon: Users,
-        image:
-          "https://images.unsplash.com/photo-1499750310107-5fef28a66643?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D?height=300&width=500",
-        features: [
-          { icon: Clock, text: "18 Months" },
-          { icon: Calendar, text: "Weekend Classes" },
-          { icon: Award, text: "AICTE Approved" },
+          { icon: Award, text: "AICTE" },
           { icon: IndianRupee, text: "Industry Projects" },
         ],
       },
