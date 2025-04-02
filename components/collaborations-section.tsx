@@ -5,7 +5,7 @@ import { Check } from "lucide-react"; // Import the tick mark icon
 export function CollaborationsSection() {
   const collaborations = [
     "Assumption University, Thailand",
-    "Universitas Sumatera, Utara",
+    "Universitas Sumatera Utara, Indonesia ",
     "University of Exeter, UK",
     "PCSD@OECD, France",
     "British Council | IELTS",
@@ -23,7 +23,7 @@ export function CollaborationsSection() {
   ];
 
   return (
-    <section className="py-12 md:py-24 bg-muted/50">
+    <section className="py-12 md:py-12 bg-muted/50">
       <div className="container space-y-8">
         <div className="flex flex-col items-center justify-center space-y-4 text-center">
           <div className="inline-block rounded-lg bg-primary/10 px-3 py-1 text-2xl font-bold text-primary">
@@ -40,12 +40,12 @@ export function CollaborationsSection() {
 
         {/* Collaborations Box */}
         <div className="mx-auto max-w-xl rounded-lg border border-primary bg-white p-6 shadow-lg">
-          <ul className="space-y-1 text-muted-foreground text-xs md:text-base">
+          <ul className="space-y-1 text-muted-foreground text-xl md:text-base">
             {collaborations.map((collab, index) => (
               <li key={index} className="flex items-center gap-2">
                 <Check className="h-4 w-4 text-primary" />{" "}
                 {/* Tick mark icon */}
-                <span className="text-primary text-xs">{collab}</span>
+                <span className="text-primary text-sm">{collab}</span>
               </li>
             ))}
           </ul>

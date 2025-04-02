@@ -211,8 +211,7 @@ function footer() {
               </li>
               <li>
                 <Link
-                  href="#"
-                  target="_blank"
+                  href="/newsletter"
                   className="text-muted-foreground hover:text-primary"
                 >
                   Newsletter

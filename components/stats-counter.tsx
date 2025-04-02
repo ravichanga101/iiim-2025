@@ -25,7 +25,7 @@ export function StatsCounter() {
     },
     {
       icon: Building,
-      value: 100,
+      value: 75,
       label: "Recruiting Companies",
       suffix: "+",
       color: "bg-emerald-100 text-emerald-700",

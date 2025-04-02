@@ -273,8 +273,7 @@ const menuItems = [
   },
   {
     title: "Newsletter",
-    href: "https://google.charusat.ac.in/",
-    target: "_blank",
+    href: "/newsletter",
   },
   {
     title: "Alumni",

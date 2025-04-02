@@ -2,7 +2,7 @@ import React from "react";
 import Image from "next/image";
 import { Button } from "@/components/ui/button";
 import { ChevronRight } from "lucide-react";
-
+import Link from "next/link";
 function AboutIIIM() {
   return (
     <section className="container py-6 md:py-18 lg:py-24">
@@ -27,10 +27,15 @@ function AboutIIIM() {
             values and global perspective.
           </p>
           <div className="flex flex-col gap-2 min-[400px]:flex-row">
-            <Button className="group">
-              Download Brochure for more info
-              <ChevronRight className="ml-1 h-4 w-4 transition-transform group-hover:translate-x-1" />
-            </Button>
+            <Link href="/assets/files/IIIM-Brochure.pdf" target="_blank">
+              <Button
+                size="lg"
+                className="bg-primary hover:bg-primary/90 group"
+              >
+                Download Brochure for more info
+                <ChevronRight className="ml-1 h-4 w-4 transition-transform group-hover:translate-x-1" />
+              </Button>
+            </Link>
             {/* <Button variant="outline">Virtual Tour</Button> */}
           </div>
         </div>

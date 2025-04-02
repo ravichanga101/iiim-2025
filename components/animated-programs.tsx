@@ -64,7 +64,7 @@ export function AnimatedPrograms() {
         title: "M.Sc.(Management)",
         subtitle: "For Working Professionals",
         description:
-          "A two-years full-time program  offers an enriching international exchange and credit transfer opportunity in collaboration with Assumption University, Thailand, providing students with global management insights and cross-cultural learning experiences.",
+          "An international exchange program with credit transfer opportunities in collaboration with Assumption University, Thailand.",
         icon: Users,
         image:
           "https://images.unsplash.com/photo-1499750310107-5fef28a66643?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D?height=300&width=500",
