@@ -257,7 +257,7 @@ const menuItems = [
     target: "_blank",
   },
   {
-    title: "Alumi",
+    title: "Alumni",
     href: "https://alumni.charusat.ac.in/",
     target: "_blank",
   },
