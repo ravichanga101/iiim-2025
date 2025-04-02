@@ -31,7 +31,7 @@ function AboutIIIM() {
               Download Brochure for more info
               <ChevronRight className="ml-1 h-4 w-4 transition-transform group-hover:translate-x-1" />
             </Button>
-            <Button variant="outline">Virtual Tour</Button>
+            {/* <Button variant="outline">Virtual Tour</Button> */}
           </div>
         </div>
         <div className="flex flex-col items-center justify-center space-y-6">
