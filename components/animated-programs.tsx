@@ -33,7 +33,7 @@ export function AnimatedPrograms() {
         title: "BBA",
         subtitle: "Bachelor of Business Administration",
         description:
-          "A three-year undergraduate program focusing on fundamental business concepts and management principles.",
+          "A three-years undergraduate program focusing on fundamental business concepts and management principles.",
         icon: BookOpen,
         image:
           "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D?height=300&width=500",
@@ -48,7 +48,7 @@ export function AnimatedPrograms() {
         title: "MBA",
         subtitle: "Master of Business Administration",
         description:
-          "A two-year full-time program with specializations in Marketing, Finance, Human Resources, and Business Analitics.",
+          "A two-years full-time program with specializations in Marketing, Finance, Human Resources, and Business Analitics.",
         icon: GraduationCap,
         image:
           "https://images.unsplash.com/photo-1552664730-d307ca884978?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D?height=300&width=500?height=300&width=500",
@@ -64,15 +64,15 @@ export function AnimatedPrograms() {
         title: "M.Sc.(Management)",
         subtitle: "For Working Professionals",
         description:
-          "A flexible program designed for working professionals to enhance their management skills while continuing their careers.",
+          "A two-years full-time program with specializations in Marketing, Finance, Human Resources, and Business Analitics.",
         icon: Users,
         image:
           "https://images.unsplash.com/photo-1499750310107-5fef28a66643?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D?height=300&width=500",
         features: [
-          { icon: Clock, text: "18 Months" },
-          { icon: Calendar, text: "Weekend Classes" },
-          { icon: Award, text: "AICTE" },
-          { icon: IndianRupee, text: "Industry Projects" },
+          { icon: Clock, text: "2 Years" },
+          { icon: Calendar, text: "July / August" },
+          { icon: Award, text: "UGC" },
+          { icon: IndianRupee, text: "₹1,45,000 / year" },
         ],
       },
     ],
