@@ -76,22 +76,22 @@ export function EnhancedRecruiters() {
   const placementStats = [
     {
       label: "Placement Rate",
-      value: "98%",
+      value: "86%",
       description: "of eligible students placed",
     },
     {
       label: "Average Package",
-      value: "₹8.5 LPA",
+      value: "₹4.5 LPA",
       description: "for MBA graduates",
     },
     {
       label: "Highest Package",
-      value: "₹18 LPA",
-      description: "in 2023 placements",
+      value: "₹12 LPA",
+      description: "in 2024 placements",
     },
     {
       label: "Recruiting Companies",
-      value: "150+",
+      value: "75+",
       description: "across various sectors",
     },
   ];

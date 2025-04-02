@@ -48,27 +48,27 @@ export function RecruitersSection() {
             <CardContent>
               <div className="grid gap-4">
                 <div className="rounded-lg bg-muted p-4">
-                  <div className="text-3xl font-bold text-primary">98%</div>
+                  <div className="text-3xl font-bold text-primary">86%</div>
                   <div className="text-sm text-muted-foreground">
                     Placement Rate
                   </div>
                 </div>
                 <div className="rounded-lg bg-muted p-4">
                   <div className="text-3xl font-bold text-primary">
-                    ₹12.5 LPA
+                    ₹4.5 LPA
                   </div>
                   <div className="text-sm text-muted-foreground">
                     Average Package
                   </div>
                 </div>
                 <div className="rounded-lg bg-muted p-4">
-                  <div className="text-3xl font-bold text-primary">₹24 LPA</div>
+                  <div className="text-3xl font-bold text-primary">₹12 LPA</div>
                   <div className="text-sm text-muted-foreground">
                     Highest Package
                   </div>
                 </div>
                 <div className="rounded-lg bg-muted p-4">
-                  <div className="text-3xl font-bold text-primary">150+</div>
+                  <div className="text-3xl font-bold text-primary">75+</div>
                   <div className="text-sm text-muted-foreground">
                     Recruiting Companies
                   </div>
