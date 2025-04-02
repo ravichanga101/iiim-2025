@@ -29,7 +29,7 @@ function CampusLife() {
     <section className="container py-12 md:py-24 lg:py-32">
       <div className="mx-auto grid max-w-5xl grid-cols-1 gap-8 lg:grid-cols-2">
         <div className="flex flex-col justify-center space-y-4">
-          <div className="inline-block rounded-lg bg-primary/10 px-3 py-1 text-sm text-primary">
+          <div className="inline-block rounded-lg bg-primary/10 px-3 py-1 text-2xl font-bold text-primary">
             Campus Life
           </div>
           <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl">
