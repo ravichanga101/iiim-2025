@@ -95,53 +95,6 @@ export default function FacultyPage() {
               </div>
             </TabsContent> */}
           </Tabs>
-
-          <div className="rounded-lg bg-primary/10 p-2 my-10 text-center shadow-md">
-            <h3 className="text-xl font-bold text-primary">
-              Humanities & Social Sciences
-            </h3>
-          </div>
-          <Tabs defaultValue="all">
-            <TabsContent value="all" className="mt-0">
-              <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-4 xl:grid-cols-4">
-                {facultyMembers.map((faculty) => (
-                  <FacultyCard key={faculty.id} faculty={faculty} />
-                ))}
-              </div>
-            </TabsContent>
-            {/* <TabsContent value="professors" className="mt-0">
-              <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
-                {facultyMembers
-                  .filter(
-                    (f) =>
-                      f.designation.includes("Professor") &&
-                      !f.designation.includes("Associate") &&
-                      !f.designation.includes("Assistant")
-                  )
-                  .map((faculty) => (
-                    <FacultyCard key={faculty.id} faculty={faculty} />
-                  ))}
-              </div>
-            </TabsContent>
-            <TabsContent value="associate" className="mt-0">
-              <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
-                {facultyMembers
-                  .filter((f) => f.designation.includes("Associate Professor"))
-                  .map((faculty) => (
-                    <FacultyCard key={faculty.id} faculty={faculty} />
-                  ))}
-              </div>
-            </TabsContent>
-            <TabsContent value="assistant" className="mt-0">
-              <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
-                {facultyMembers
-                  .filter((f) => f.designation.includes("Assistant Professor"))
-                  .map((faculty) => (
-                    <FacultyCard key={faculty.id} faculty={faculty} />
-                  ))}
-              </div>
-            </TabsContent> */}
-          </Tabs>
         </section>
       </main>
     </div>
