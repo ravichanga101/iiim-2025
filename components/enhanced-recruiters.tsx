@@ -100,7 +100,7 @@ export function EnhancedRecruiters() {
     <section className="py-16 md:py-24 bg-gradient-to-b from-muted/20 to-white">
       <div className="container space-y-12">
         <div className="flex flex-col items-center justify-center space-y-4 text-center">
-          <div className="inline-block rounded-lg bg-primary/10 px-3 py-1 text-sm text-primary">
+          <div className="inline-block rounded-lg bg-primary/10 px-3 py-1 text-2xl font-bold text-primary">
             Career Opportunities
           </div>
           <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">
