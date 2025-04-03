@@ -10,13 +10,13 @@ export function EnhancedHero() {
   const [currentSlide, setCurrentSlide] = useState(0);
   const parallaxRef = useRef<HTMLDivElement>(null);
   const textRef = useRef<HTMLDivElement>(null);
-
+  const imagePrefix = process.env.NEXT_PUBLIC_IMAGE_PREFIX || "";
   const slides = [
     {
       title: "Indukaka Ipcowala Institute of Management",
       subtitle:
         "Shaping future business leaders through excellence in education, research, and innovation",
-      image: "./iiim/assets/hero-slider/slider_1.webp?height=1080&width=1920",
+      image: "/assets/hero-slider/slider_1.webp?height=1080&width=1920",
       cta: "Apply Now",
       secondaryCta: "Virtual Campus Tour",
     },
@@ -24,7 +24,7 @@ export function EnhancedHero() {
       title: "Excellence in Management Education",
       subtitle:
         "Ranked among the top management institutes in Gujarat with state-of-the-art facilities",
-      image: "./iiim/assets/hero-slider/slider_2.webp?height=1080&width=1920",
+      image: "/assets/hero-slider/slider_2.webp?height=1080&width=1920",
       cta: "Apply Now",
       secondaryCta: "Student Testimonials",
     },
@@ -32,7 +32,7 @@ export function EnhancedHero() {
       title: "Industry-Integrated Curriculum",
       subtitle:
         "Learn from industry experts and gain practical experience through our industry partnerships",
-      image: "./iim/assets/hero-slider/slider_1.webp?height=1080&width=1920",
+      image: "/assets/hero-slider/slider_1.webp?height=1080&width=1920",
       cta: "Apply Now",
       secondaryCta: "Placement Records",
     },
@@ -75,7 +75,7 @@ export function EnhancedHero() {
         ref={parallaxRef}
         className="absolute inset-0 transition-opacity duration-1000 ease-in-out"
         style={{
-          backgroundImage: `url('${slides[currentSlide].image}')`,
+          backgroundImage: `url('${imagePrefix}${slides[currentSlide].image}')`,
           backgroundSize: "cover",
           backgroundPosition: "center",
           height: "120%", // Extra height for parallax movement

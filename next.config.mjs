@@ -6,8 +6,6 @@ try {
 }
 
 /** @type {import('next').NextConfig} */
-const isProd = process.env.NODE_ENV === "production";
-const repoName = "iiim-2025";
 
 const nextConfig = {
   eslint: {
@@ -18,8 +16,7 @@ const nextConfig = {
   },
   output: "export", // Required for static exports
   // basePath: isProd ? `/${repoName}` : "",
-  basePath: "/iiim", // Ensure all routes and assets use the /iiim base path
-  assetPrefix: "/iiim",
+
   images: {
     unoptimized: true,
     // remotePatterns: [
