@@ -18,7 +18,7 @@ const nextConfig = {
   },
   output: "export", // Required for static exports
   // basePath: isProd ? `/${repoName}` : "",
-  bashPath: "https://www.charusat.ac.in/iiim/",
+  bashPath: "/iiim",
   assetPrefix: "https://www.charusat.ac.in/iiim/",
   images: {
     unoptimized: true,
