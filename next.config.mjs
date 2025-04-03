@@ -19,7 +19,7 @@ const nextConfig = {
   output: "export", // Required for static exports
   // basePath: isProd ? `/${repoName}` : "",
   basePath: "/iiim-2025",
-  assetPrefix: "/",
+  assetPrefix: "https://www.charusat.ac.in/iiim/",
   images: {
     unoptimized: true,
     // remotePatterns: [
