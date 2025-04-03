@@ -22,7 +22,7 @@ const nextConfig = {
     //   },
     // ],
   },
-  assetPrefix: "https://charusat.ac.in/iiim/", // 🔹 Add this line
+  // 🔹 Add this line
   experimental: {
     webpackBuildWorker: true,
     parallelServerBuildTraces: true,
