@@ -8,7 +8,7 @@
     "lint": "next lint",
     "dev": "next dev",
     "build": "next build && next export",
-    "deploy": "next build && next export && gh-pages -d out"
+    "deploy": "next build && gh-pages -d out"
   },
   "dependencies": {
     "@emotion/is-prop-valid": "latest",

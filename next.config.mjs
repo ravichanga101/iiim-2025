@@ -17,8 +17,9 @@ const nextConfig = {
     ignoreBuildErrors: true,
   },
   output: "export", // Required for static exports
-  basePath: isProd ? `/${repoName}` : "",
-  assetPrefix: isProd ? `/${repoName}/` : "",
+  // basePath: isProd ? `/${repoName}` : "",
+  basePath: "/iiim-2025",
+  assetPrefix: "./",
   images: {
     unoptimized: true,
     // remotePatterns: [
@@ -28,7 +29,7 @@ const nextConfig = {
     //   },
     // ],
   },
-  // 🔹 Add this line
+
   experimental: {
     webpackBuildWorker: true,
     parallelServerBuildTraces: true,
