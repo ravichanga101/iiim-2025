@@ -15,12 +15,12 @@ const nextConfig = {
   },
   images: {
     unoptimized: true,
-    remotePatterns: [
-      {
-        protocol: "https",
-        hostname: "iiim-2025.vercel.app",
-      },
-    ],
+    // remotePatterns: [
+    //   {
+    //     protocol: "https",
+    //     hostname: "iiim-2025.vercel.app",
+    //   },
+    // ],
   },
   assetPrefix: "https://iiim-2025.vercel.app", // 🔹 Add this line
   experimental: {
