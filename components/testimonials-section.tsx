@@ -73,14 +73,14 @@ export function TestimonialsSection() {
                   </div>
                 </CardContent>
                 <CardFooter className="flex flex-col items-center justify-center">
-                  <div className="relative h-16 w-16 overflow-hidden rounded-full border-2 border-primary mb-3">
+                  {/* <div className="relative h-16 w-16 overflow-hidden rounded-full border-2 border-primary mb-3">
                     <Image
                       src={testimonials[current].image || "/placeholder.svg"}
                       alt={testimonials[current].name}
                       fill
                       className="object-cover"
                     />
-                  </div>
+                  </div> */}
                   <div className="text-center">
                     <h4 className="font-bold">{testimonials[current].name}</h4>
                     <p className="text-sm text-primary">
