@@ -22,7 +22,7 @@ const nextConfig = {
     //   },
     // ],
   },
-  // 🔹 Add this line
+  assetPrefix: "https://iiim-2025.vercel.app", // 🔹 Add this line
   experimental: {
     webpackBuildWorker: true,
     parallelServerBuildTraces: true,
