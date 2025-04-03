@@ -13,20 +13,14 @@ const nextConfig = {
   typescript: {
     ignoreBuildErrors: true,
   },
-  // images: {
-  //   unoptimized: true,
-  // },
+  images: {
+    unoptimized: true,
+  },
   experimental: {
     webpackBuildWorker: true,
     parallelServerBuildTraces: true,
     parallelServerCompiles: true,
   },
-  images: {
-    unoptimized: true,
-    domains: ["iiim-2025.vercel.app"], // Allow external images
-  },
-  basePath: "/i2im", // Prefix all links with /i2im (optional)
-  assetPrefix: "https://iiim-2025.vercel.app", // Serve assets from the new domain
 };
 
 mergeConfig(nextConfig, userConfig);
