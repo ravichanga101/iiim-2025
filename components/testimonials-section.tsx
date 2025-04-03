@@ -12,28 +12,19 @@ export function TestimonialsSection() {
   const testimonials = [
     {
       quote:
-        "My experience at IIIM-CHARUSAT has been transformative. The faculty's industry experience and the practical approach to learning prepared me well for my career in management consulting.",
-      name: "Rahul Sharma",
-      position: "Senior Consultant, Deloitte",
+        "IIIM, CHARUSAT provides excellent infrastructure, caring and intellectual faculties. Case based teaching approach broadened my perspectives on Management Issues. It has become helpful in my current role at McDonald's Canada.",
+      name: "Kesha Patel",
+      position: "National Operations Coordinator (Mc Donalds, Canada)",
       batch: "MBA 2018",
       image:
         "https://plus.unsplash.com/premium_photo-1661683653197-ca2d0aab80eb?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D?height=100&width=100",
     },
     {
       quote:
-        "The industry exposure and internship opportunities at IIIM helped me secure a placement at my dream company. The curriculum is well-designed to meet industry requirements.",
-      name: "Priya Patel",
-      position: "Marketing Manager, Amazon",
+        "IIIM, CHARUSAT has developed my overall personality and boosted confidence in me. Competitive knowledge imparted during my graduation by learned faculty has brightened my career options.",
+      name: "Anushka Makwana",
+      position: "(IIM, Udaipur)",
       batch: "MBA 2019",
-      image:
-        "https://plus.unsplash.com/premium_photo-1661683653197-ca2d0aab80eb?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D?height=100&width=100",
-    },
-    {
-      quote:
-        "As an international student, I found the campus environment very welcoming. The global perspective in the curriculum and diverse student body enriched my learning experience.",
-      name: "John Williams",
-      position: "Financial Analyst, HSBC",
-      batch: "MBA 2020",
       image:
         "https://plus.unsplash.com/premium_photo-1661683653197-ca2d0aab80eb?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D?height=100&width=100",
     },
