@@ -16,8 +16,7 @@ export function TestimonialsSection() {
       name: "Kesha Patel",
       position: "National Operations Coordinator (Mc Donalds, Canada)",
       batch: "MBA 2018",
-      image:
-        "https://plus.unsplash.com/premium_photo-1661683653197-ca2d0aab80eb?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D?height=100&width=100",
+      image: "/assets/testimonials/KeshaPatel.jpg?height=100&width=100",
     },
     {
       quote:
@@ -25,8 +24,7 @@ export function TestimonialsSection() {
       name: "Anushka Makwana",
       position: "(IIM, Udaipur)",
       batch: "MBA 2019",
-      image:
-        "https://plus.unsplash.com/premium_photo-1661683653197-ca2d0aab80eb?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D?height=100&width=100",
+      image: "/assets/testimonials/AnushkaMakwana.jpg?height=100&width=100",
     },
   ];
 
@@ -73,14 +71,14 @@ export function TestimonialsSection() {
                   </div>
                 </CardContent>
                 <CardFooter className="flex flex-col items-center justify-center">
-                  {/* <div className="relative h-16 w-16 overflow-hidden rounded-full border-2 border-primary mb-3">
+                  <div className="relative h-16 w-16 overflow-hidden rounded-full border-2 border-primary mb-3">
                     <Image
                       src={testimonials[current].image || "/placeholder.svg"}
                       alt={testimonials[current].name}
                       fill
                       className="object-cover"
                     />
-                  </div> */}
+                  </div>
                   <div className="text-center">
                     <h4 className="font-bold">{testimonials[current].name}</h4>
                     <p className="text-sm text-primary">
