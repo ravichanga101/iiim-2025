@@ -23,6 +23,7 @@ import {
   Award,
   IndianRupee,
 } from "lucide-react";
+import Link from "next/link";
 
 export function AnimatedPrograms() {
   const [activeTab, setActiveTab] = useState("all");
@@ -35,6 +36,7 @@ export function AnimatedPrograms() {
         description:
           "A three/four years undergraduate program focusing on fundamental business concepts and management principles.",
         icon: BookOpen,
+
         image:
           "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D?height=300&width=500",
         features: [
@@ -43,6 +45,7 @@ export function AnimatedPrograms() {
           { icon: Award, text: "UGC / AICTE Approved" },
           { icon: IndianRupee, text: "1,00,000 / year" },
         ],
+        details: "/assets/files/programs/BBA_Programs_Details.pdf",
       },
       {
         title: "MBA",
@@ -58,6 +61,7 @@ export function AnimatedPrograms() {
           { icon: Award, text: "UGC Approved" },
           { icon: IndianRupee, text: "1,45,000 / year" },
         ],
+        details: "/assets/files/programs/MBA_Programs_Details.pdf",
       },
 
       {
@@ -74,6 +78,7 @@ export function AnimatedPrograms() {
           { icon: Award, text: "UGC Approved" },
           { icon: IndianRupee, text: "1,45,000 / year" },
         ],
+        details: "/assets/files/programs/MSc_Programs_Details.pdf",
       },
     ],
     // postgraduate: [
@@ -210,10 +215,12 @@ export function AnimatedPrograms() {
                     </div>
                   </CardContent>
                   <CardFooter>
-                    <Button className="w-full group">
-                      Program Details
-                      <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
-                    </Button>
+                    <Link href={program.details} target="_blank">
+                      <Button className="w-full group">
+                        Program Details
+                        <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
+                      </Button>
+                    </Link>
                   </CardFooter>
                 </Card>
               </motion.div>
