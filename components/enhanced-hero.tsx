@@ -16,7 +16,7 @@ export function EnhancedHero() {
       title: "Indukaka Ipcowala Institute of Management",
       subtitle:
         "Shaping future business leaders through excellence in education, research, and innovation",
-      image: "./assets/hero-slider/slider_1.webp?height=1080&width=1920",
+      image: "./iiim/assets/hero-slider/slider_1.webp?height=1080&width=1920",
       cta: "Apply Now",
       secondaryCta: "Virtual Campus Tour",
     },
@@ -24,7 +24,7 @@ export function EnhancedHero() {
       title: "Excellence in Management Education",
       subtitle:
         "Ranked among the top management institutes in Gujarat with state-of-the-art facilities",
-      image: "./assets/hero-slider/slider_2.webp?height=1080&width=1920",
+      image: "./iiim/assets/hero-slider/slider_2.webp?height=1080&width=1920",
       cta: "Apply Now",
       secondaryCta: "Student Testimonials",
     },
@@ -32,7 +32,7 @@ export function EnhancedHero() {
       title: "Industry-Integrated Curriculum",
       subtitle:
         "Learn from industry experts and gain practical experience through our industry partnerships",
-      image: "./assets/hero-slider/slider_1.webp?height=1080&width=1920",
+      image: "./iim/assets/hero-slider/slider_1.webp?height=1080&width=1920",
       cta: "Apply Now",
       secondaryCta: "Placement Records",
     },

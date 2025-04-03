@@ -9,7 +9,6 @@ export const metadata = {
     "Indukaka Ipcowala Institute of Management (IIIM) is a premier business school and a constituent of Charotar University of Science and Technology (CHARUSAT).",
   keywords:
     "IIIM, Indukaka Ipcowala Institute of Management, CHARUSAT, MBA, BBA, management education, business school, Gujarat",
-  imagePathPrefix: "/iiim/",
 };
 
 export default function RootLayout({

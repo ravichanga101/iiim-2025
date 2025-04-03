@@ -130,7 +130,7 @@ export default function Home() {
             </div>
           </div>
         </section>
-        <StatsCounter />
+        {/* <StatsCounter />
         <AnimatedPrograms />
 
         <CollaborationsSection />
@@ -141,7 +141,7 @@ export default function Home() {
 
         <CampusLife />
 
-        <CTA />
+        <CTA /> */}
       </main>
     </div>
   );
