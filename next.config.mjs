@@ -15,7 +15,14 @@ const nextConfig = {
   },
   images: {
     unoptimized: true,
+    remotePatterns: [
+      {
+        protocol: "https",
+        hostname: "iiim-2025.vercel.app",
+      },
+    ],
   },
+  assetPrefix: "https://iiim-2025.vercel.app", // 🔹 Add this line
   experimental: {
     webpackBuildWorker: true,
     parallelServerBuildTraces: true,
