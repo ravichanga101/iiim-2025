@@ -449,7 +449,7 @@ export default function Header() {
           <Link href="/" className="flex items-center gap-2">
             <Image
               alt="IIM logo"
-              src="/assets/iiim.png"
+              src="./iiim/assets/iiim.png"
               height={80}
               width={80}
               className="h-10 w-10 p-1 md:h-16 md:w-16 object-contain"
