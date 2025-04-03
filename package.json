@@ -2,7 +2,6 @@
   "name": "my-v0-project",
   "version": "0.1.0",
   "private": true,
-  // "homepage": "https://github.com/ravichanga101/iiim-2025",
   "scripts": {
     "start": "next start",
     "lint": "next lint",
