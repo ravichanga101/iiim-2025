@@ -86,9 +86,9 @@ export function TestimonialsSection() {
                     <p className="text-sm text-primary">
                       {testimonials[current].position}
                     </p>
-                    <p className="text-xs text-muted-foreground">
+                    {/* <p className="text-xs text-muted-foreground">
                       {testimonials[current].batch}
-                    </p>
+                    </p> */}
                   </div>
                 </CardFooter>
               </Card>
