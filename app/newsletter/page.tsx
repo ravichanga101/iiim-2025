@@ -19,18 +19,18 @@ function NewsletterPage() {
     },
     {
       id: 202412,
-      title: "December 2024 Newsletter",
+      title: "November - December 2024 Newsletter",
       description:
-        "Catch up on the latest updates, events, and achievements at IIIM for December 2024.",
+        "Catch up on the latest updates, events, and achievements at IIIM for November - December 2024.",
       link: "/assets/files/newsletters/2024/December-2024.pdf",
     },
-    {
-      id: 202411,
-      title: "November 2024 Newsletter",
-      description:
-        "Catch up on the latest updates, events, and achievements at IIIM for November 2024.",
-      link: "/assets/files/newsletters/2024/November-2024.pdf",
-    },
+    // {
+    //   id: 202411,
+    //   title: "November 2024 Newsletter",
+    //   description:
+    //     "Catch up on the latest updates, events, and achievements at IIIM for November 2024.",
+    //   link: "/assets/files/newsletters/2024/November-2024.pdf",
+    // },
     {
       id: 202410,
       title: "October 2024 Newsletter",
@@ -73,20 +73,20 @@ function NewsletterPage() {
         "Catch up on the latest updates, events, and achievements at IIIM for May 2024.",
       link: "/assets/files/newsletters/2024/May-2024.pdf",
     },
-    {
-      id: 202404,
-      title: "April 2024 Newsletter",
-      description:
-        "Catch up on the latest updates, events, and achievements at IIIM for April 2024.",
-      link: "/assets/files/newsletters/2024/April-2024.pdf",
-    },
-    {
-      id: 202403,
-      title: "March 2024 Newsletter",
-      description:
-        "Catch up on the latest updates, events, and achievements at IIIM for March 2024.",
-      link: "/assets/files/newsletters/2024/March-2024.pdf",
-    },
+    // {
+    //   id: 202404,
+    //   title: "April 2024 Newsletter",
+    //   description:
+    //     "Catch up on the latest updates, events, and achievements at IIIM for April 2024.",
+    //   link: "/assets/files/newsletters/2024/April-2024.pdf",
+    // },
+    // {
+    //   id: 202403,
+    //   title: "March 2024 Newsletter",
+    //   description:
+    //     "Catch up on the latest updates, events, and achievements at IIIM for March 2024.",
+    //   link: "/assets/files/newsletters/2024/March-2024.pdf",
+    // },
 
     // Add more newsletters as needed
   ];
