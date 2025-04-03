@@ -19,8 +19,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" suppressHydrationWarning>
-      <base href="https://iiim-2025.vercel.app" />
-      <head />
+      <head>
+        <base href="https://iiim-2025.vercel.app/" />
+      </head>
       <body className="overflow-x-hidden">
         <ThemeProvider
           attribute="class"
