@@ -6,6 +6,9 @@ try {
 }
 
 /** @type {import('next').NextConfig} */
+const isProd = process.env.NODE_ENV === "production";
+const repoName = "iiim-2025";
+
 const nextConfig = {
   eslint: {
     ignoreDuringBuilds: true,
@@ -13,6 +16,9 @@ const nextConfig = {
   typescript: {
     ignoreBuildErrors: true,
   },
+  output: "export", // Required for static exports
+  basePath: isProd ? `/${repoName}` : "",
+  assetPrefix: isProd ? `/${repoName}/` : "",
   images: {
     unoptimized: true,
     // remotePatterns: [
