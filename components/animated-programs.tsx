@@ -58,7 +58,7 @@ export function AnimatedPrograms() {
         features: [
           { icon: Clock, text: "2 Years" },
           // { icon: Calendar, text: "July / August Intake" },
-          { icon: Award, text: "UGC Approved" },
+          { icon: Award, text: "AICTE Approved" },
           { icon: IndianRupee, text: "1,45,000 / year" },
         ],
         details: "/assets/files/programs/MBA_Programs_Details.pdf",
@@ -66,7 +66,7 @@ export function AnimatedPrograms() {
 
       {
         title: "M.Sc.(Management)",
-        subtitle: "For Working Professionals",
+        subtitle: "Full Time",
         description:
           "An international exchange program with credit transfer opportunities in collaboration with Assumption University, Thailand.",
         icon: Users,
