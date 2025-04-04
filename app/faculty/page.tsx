@@ -441,9 +441,9 @@ const facultyMembers = [
   {
     id: 34,
     name: "Mr. Ishan Patel",
-    designation: "--",
-    qualification: " ---",
-    specialization: "---",
+    designation: "Office Assistant",
+    qualification: " M.Tech (EVD), B.Tech (EC)",
+    specialization: "Area of Interest VLSI, Management",
     image: "/assets/faculty/NT_4_Mr. Ishan Patel.png",
     email: "****@charusat.ac.in",
   },
