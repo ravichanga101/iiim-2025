@@ -33,7 +33,7 @@ export function CollaborationsSection() {
           <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">
             Our Esteemed Collaborations
           </h2>
-          <p className="max-w-[700px] text-muted-foreground md:text-base">
+          <p className="max-w-[700px] text-muted-foreground md:text-xl">
             IIIM-CHARUSAT has partnered with leading organizations and
             institutions worldwide to foster academic excellence and innovation.
           </p>

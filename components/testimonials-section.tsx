@@ -45,7 +45,7 @@ export function TestimonialsSection() {
           <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl">
             What Our Alumni Say
           </h2>
-          <p className="max-w-[700px] text-muted-foreground">
+          <p className="max-w-[700px] text-muted-foreground md:text-xl">
             Hear from our successful graduates about their experiences at
             IIIM-CHARUSAT and how it shaped their careers.
           </p>

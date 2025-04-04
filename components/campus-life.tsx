@@ -14,7 +14,7 @@ function CampusLife() {
           <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">
             Vibrant Campus Experience
           </h2>
-          <p className="max-w-[700px] text-muted-foreground md:text-base">
+          <p className="max-w-[700px] text-muted-foreground md:text-xl">
             At IIIM, we believe in holistic development. Our campus offers
             state-of-the-art facilities, vibrant student activities, and a
             conducive environment for learning and growth.
