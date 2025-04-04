@@ -445,7 +445,7 @@ const facultyMembers = [
     qualification: " M.Tech (EVD), B.Tech (EC)",
     specialization: "Area of Interest VLSI, Management",
     image: "/assets/faculty/NT_4_Mr. Ishan Patel.png",
-    email: "****@charusat.ac.in",
+    email: "ishanpatel.mba@charusat.ac.in",
   },
   {
     id: 35,
