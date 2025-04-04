@@ -10,6 +10,7 @@ export function CollaborationsSection() {
     "PCSD@OECD, France",
     "British Council | IELTS",
     "Indian Institute of Management – Ahmedabad (IIM-A)",
+    "Indian Institute of Management – Bangalore (IIM-A)",
     "NSE Academy Ltd. (NAL)",
     "All India Management Association (AIMA)",
     "Ahmedabad Management Association (AMA)",
