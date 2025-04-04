@@ -66,7 +66,7 @@ export function AnimatedPrograms() {
 
       {
         title: "M.Sc.(Management)",
-        subtitle: "Full Time",
+        subtitle: "Master of Science, Full Time",
         description:
           "An international exchange program with credit transfer opportunities in collaboration with Assumption University, Thailand.",
         icon: Users,
