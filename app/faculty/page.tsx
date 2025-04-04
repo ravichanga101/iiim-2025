@@ -103,14 +103,14 @@ export default function FacultyPage() {
 
 function FacultyCard({ faculty }) {
   return (
-    <div className="group overflow-hidden  border bg-background shadow-sm transition-all hover:shadow-md">
+    <div className="group overflow-hidden  border bg-background shadow-sm transition-all hover:shadow-md rounded-t-xl">
       <div className="aspect-[1/1] overflow-hidden">
         <Image
           src={faculty.image || "/placeholder.svg"}
           alt={faculty.name}
           width={275}
           height={275}
-          className="h-full w-full object-cover border-2 border-red-600 transition-transform duration-300"
+          className="h-full w-full object-cover border-2 border-red-600 transition-transform duration-300 rounded-xl"
         />
       </div>
       <div className="p-4">
