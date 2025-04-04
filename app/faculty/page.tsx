@@ -137,7 +137,7 @@ const facultyMembers = [
     designation: "Dean(FMS)",
     qualification: "Ph.D., MBA(HRM),M.Ed.,MSc",
     specialization: "Organisational Behaviour, Emotional Intelligence",
-    image: "/assets/faculty/1_Dr. Reshma Sable.png?height=275&width=275",
+    image: "/assets/faculty/1_Dr. Reshma Sable.png",
     email: "dean.fms@charusat.ac.in",
   },
   {
@@ -414,8 +414,9 @@ const facultyMembers = [
   {
     id: 31,
     name: "Mr. Snehalkumar Patel",
-    designation: "Lab Technician, Technical Associate of Online Education",
-    qualification: " BSc.IT, MSc.IT",
+    designation:
+      "Lab Technician, Technical Associate, Online Education (Audio-Video Recording and Editing)",
+    qualification: " Phd.( Purshing), MSc.IT, BIT",
     specialization: "Microsoft Specialist and Certified Professional",
     image: "/assets/faculty/NT_1_Mr. Snehalkumar Patel.png",
     email: "snehalpatel.mba@charusat.ac.in",
@@ -424,8 +425,8 @@ const facultyMembers = [
     id: 32,
     name: "Mr. Dipak Patel",
     designation: "Librarian",
-    qualification: " BA, M. Lib",
-    specialization: "Information collection development and management system",
+    qualification: " M. Lib, BA",
+    specialization: "Information Collection Development and Management System",
     image: "/assets/faculty/NT_2_Mr. Dipak Patel.png",
     email: "dipakpatel.lib@charusat.ac.in",
   },
