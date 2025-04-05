@@ -58,7 +58,8 @@ function AboutIIIM() {
           <p className="mt-2 text-muted-foreground md:text-lg">
             CHARUSAT is committed to quality in all its endeavors like
             teaching-learning, research and extension; to foster an intellectual
-            culture; and develop graduates for a purpose of life, Service.
+            culture; and develop graduates for a life of purpose,
+            service and leadership.
           </p>
         </div>
         <div className="mt-2 grid gap-8 md:grid-cols-2">
