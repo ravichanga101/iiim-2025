@@ -41,7 +41,7 @@ function AboutIIIM() {
         </div>
         <div className="flex flex-col items-center justify-center space-y-6">
           <Image
-            src="./assets/IMG_3433.jpg?height=600&width=600"
+            src="./assets/IMG_3433.JPG?height=600&width=600"
             alt="IIIM Campus"
             width={600}
             height={600}
