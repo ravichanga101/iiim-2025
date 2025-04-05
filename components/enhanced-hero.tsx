@@ -32,7 +32,7 @@ export function EnhancedHero() {
       title: "Industry-Integrated Curriculum",
       subtitle:
         "Learn from industry experts and gain practical experience through our industry partnerships",
-      image: "/assets/hero-slider/slider_1.webp?height=1080&width=1920",
+      image: "/assets/hero-slider/slider_3.webp?height=1080&width=1920",
       cta: "Apply Now",
       secondaryCta: "Placement Records",
     },
