@@ -414,7 +414,7 @@ const facultyMembers = [
     name: "Mr. Snehalkumar Patel",
     designation:
       "Lab Technician, Technical Associate, Online Education (Audio-Video Recording and Editing)",
-    qualification: " Phd.( Purshing), MSc.IT, BIT",
+    qualification: " Ph. D. (Purshing), MSc.IT, BIT",
     specialization: "Microsoft Specialist and Certified Professional",
     image: "/assets/faculty/NT_1_Mr. Snehalkumar Patel.png",
     email: "snehalpatel.mba@charusat.ac.in",
