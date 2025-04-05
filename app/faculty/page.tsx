@@ -199,7 +199,7 @@ const facultyMembers = [
     id: 8,
     name: "Mr. Kirti Patel",
     designation: "Assistant Professor",
-    qualification: "MBA(Marketing),BBA",
+    qualification: "PhD(Pursuing),MBA(Marketing),BBA",
     specialization: "Marketing & Brand Management, Business Environment",
     image: "/assets/faculty/8_Mr. Kirti Patel.png",
     email: "kirtipatel.mba@charusat.ac.in",
