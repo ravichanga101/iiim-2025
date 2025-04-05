@@ -101,7 +101,7 @@ export function EnhancedRecruiters() {
       <div className="container space-y-12">
         <div className="flex flex-col items-center justify-center space-y-4 text-center">
           <div className="inline-block rounded-lg bg-primary/10 px-3 py-1 text-2xl font-bold text-primary">
-            Career Opportunities
+            Where Talent Meets Opportunity
           </div>
           <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">
             Our Prestigious Recruiters

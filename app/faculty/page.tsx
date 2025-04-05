@@ -103,28 +103,32 @@ export default function FacultyPage() {
 
 function FacultyCard({ faculty }) {
   return (
-    <div className="group overflow-hidden  border bg-background shadow-sm transition-all hover:shadow-md rounded-t-xl">
-      <div className="aspect-[1/1] overflow-hidden">
+    <div className="group flex flex-col overflow-hidden w-[260px] max-w-[400px] border bg-primary/10 shadow-sm transition-all hover:shadow-md rounded-xl mx-auto">
+      {/* Faculty Image */}
+      <div className="overflow-hidden mx-auto p-4">
         <Image
           src={faculty.image || "/placeholder.svg"}
           alt={faculty.name}
-          width={275}
-          height={275}
-          className="h-full w-full object-cover border-2 border-red-600 transition-transform duration-300 rounded-xl"
+          width={165}
+          height={165}
+          className="mx-auto object-cover border-2 border-red-600 transition-transform duration-300 rounded-xl"
         />
       </div>
-      <div className="p-4">
-        <h3 className="font-bold">{faculty.name}</h3>
+
+      {/* Faculty Info */}
+      <div className="flex flex-col flex-1 p-4 text-center">
+        <h3 className="font-bold text-lg">{faculty.name}</h3>
         <p className="text-sm text-primary">{faculty.designation}</p>
         <p className="mt-1 text-xs text-muted-foreground">
           {faculty.qualification}
         </p>
         <p className="mt-2 text-sm">{faculty.specialization}</p>
-        <p className="mt-2 text-xs">
-          {" "}
+
+        {/* Email Section */}
+        <div className="mt-auto pt-4 text-xs">
           <Mail className="inline-block mr-2 h-4 w-4" />
           {faculty.email}
-        </p>
+        </div>
       </div>
     </div>
   );
