@@ -259,17 +259,15 @@ const facultyMembers = [
     image: "/assets/faculty/14_Dr. Jaimin Trivedi.png",
     email: "jaimintrivedi.mba@charusat.ac.in",
   },
-
   {
     id: 15,
     name: "Dr. Divyang Purohit",
     designation: "Assistant Professor",
-    qualification: "Ph.D.",
-    specialization: "Accounting, Finance, Business Laws",
+    qualification: "Ph.D., MBA (Marketing), B.E. (Mechanical)",
+    specialization: "Marketing, Entrepreneurship, International Business, HRM",
     image: "/assets/faculty/15_Dr. Divyang Purohit.png",
-    email: "****@charusat.ac.in",
+    email: "divyangpurohit.mba@charusat.ac.in",
   },
-
   {
     id: 16,
     name: "Ms. Khushboo Bhatt",
