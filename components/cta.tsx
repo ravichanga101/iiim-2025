@@ -4,11 +4,19 @@ import Link from "next/link";
 
 function CTA() {
   return (
-    <section className="bg-primary text-primary-foreground py-12 md:py-24 lg:py-32">
-      <div className="container space-y-8">
+    <section
+      className="text-primary-foreground py-12 md:py-24 lg:py-32"
+      style={{
+        backgroundImage: "url('/assets/hero-slider/slider_2.webp')",
+        backgroundAttachment: "fixed",
+        backgroundSize: "cover",
+        backgroundPosition: "center",
+      }}
+    >
+      <div className="container   p-8 w-2/4  bg-primary space-y-8">
         <div className="flex flex-col items-center justify-center space-y-4 text-center">
           <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">
-            Ready to Shape Your Future?
+            Shape Your Future
           </h2>
           <p className="max-w-[700px] md:text-xl">
             Join IIIM-CHARUSAT and embark on a journey of academic excellence

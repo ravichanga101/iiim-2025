@@ -24,31 +24,76 @@ function CampusLife() {
         {/* Images Section */}
         <div className="flex flex-wrap justify-center align-middle gap-4">
           <Image
+            src="/assets/campus/vc6.jpg"
+            alt="Campus Image 4"
+            width={300}
+            height={180}
+            className="rounded-lg object-cover shadow-md transition-transform hover:scale-105 duration-500"
+          />
+
+          <Image
+            src="/assets/campus/vc7.jpg"
+            alt="Campus Image 4"
+            width={200}
+            height={180}
+            className="rounded-lg object-cover shadow-md transition-transform hover:scale-105 duration-500"
+          />
+
+          <Image
+            src="./assets/hero-slider/slider_2.webp"
+            alt="Campus Image 4"
+            width={200}
+            height={200}
+            className="rounded-lg object-cover shadow-md transition-transform hover:scale-105 duration-500"
+          />
+          <Image
+            src="./assets/hero-slider/slider_1.webp"
+            alt="Campus Image 4"
+            width={200}
+            height={200}
+            className="rounded-lg object-cover shadow-md transition-transform hover:scale-105 duration-500"
+          />
+          <Image
+            src="/assets/campus/vc5.jpg"
+            alt="Campus Image 4"
+            width={100}
+            height={180}
+            className="rounded-lg object-cover shadow-md transition-transform hover:scale-105 duration-500"
+          />
+
+          <Image
+            src="./assets/campus/vc4.jpg"
+            alt="Campus Image 4"
+            width={180}
+            height={180}
+            className="rounded-lg object-cover shadow-md transition-transform hover:scale-105 duration-500"
+          />
+          <Image
             src="./assets/campus/vc1.jpg"
             alt="Campus Image 1"
             width={200}
-            height={200}
+            height={180}
             className="rounded-lg object-cover shadow-md transition-transform hover:scale-105 duration-500"
           />
           <Image
             src="./assets/campus/vc2.jpg"
             alt="Campus Image 2"
             width={200}
-            height={200}
+            height={180}
             className="rounded-lg object-cover shadow-md transition-transform hover:scale-105 duration-500"
           />
           <Image
             src="./assets/campus/vc3.jpg"
             alt="Campus Image 3"
             width={200}
-            height={200}
+            height={180}
             className="rounded-lg object-cover shadow-md transition-transform hover:scale-105 duration-500"
           />
           <Image
-            src="./assets/campus/vc4.jpg"
+            src="./assets/hero-slider/slider_3.webp"
             alt="Campus Image 4"
             width={200}
-            height={200}
+            height={180}
             className="rounded-lg object-cover shadow-md transition-transform hover:scale-105 duration-500"
           />
         </div>
