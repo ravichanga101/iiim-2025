@@ -24,7 +24,7 @@ function CampusLife() {
         {/* Images Section */}
         <div className="flex flex-wrap justify-center align-middle gap-4">
           <Image
-            src="/assets/campus/vc6.jpg"
+            src="/assets/campus/vc6.JPG"
             alt="Campus Image 4"
             width={300}
             height={180}
@@ -32,7 +32,7 @@ function CampusLife() {
           />
 
           <Image
-            src="/assets/campus/vc7.jpg"
+            src="/assets/campus/vc7.JPG"
             alt="Campus Image 4"
             width={200}
             height={180}
@@ -54,7 +54,7 @@ function CampusLife() {
             className="rounded-lg object-cover shadow-md transition-transform hover:scale-105 duration-500"
           />
           <Image
-            src="/assets/campus/vc5.jpg"
+            src="/assets/campus/vc5.JPG"
             alt="Campus Image 4"
             width={100}
             height={180}
