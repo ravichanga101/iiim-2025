@@ -13,7 +13,7 @@ function CTA() {
         backgroundPosition: "center",
       }}
     >
-      <div className="container   p-8 w-2/4  bg-primary space-y-8">
+      <div className="container   p-8 w-2/4 sm:w-3/4  bg-primary space-y-8">
         <div className="flex flex-col items-center justify-center space-y-4 text-center">
           <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">
             Shape Your Future
