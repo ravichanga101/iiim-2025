@@ -384,7 +384,7 @@ const facultyMembers = [
     qualification: " PhD(Pursuing),MBA",
     specialization: "Human Resources Management, Organizational Behaviour",
     image: "/assets/faculty/27_Dr. Ojisha Bhardwaj.png",
-    email: "****@charusat.ac.in",
+    email: "ojishabhardwaj.mba@charusat.ac.in",
   },
   {
     id: 28,
@@ -439,7 +439,7 @@ const facultyMembers = [
     qualification: "B.Com",
     specialization: "Information collection development and management system",
     image: "/assets/faculty/NT_3_Divyesh Patel.png",
-    email: "*****@charusat.ac.in",
+    email: "divyeshpatel.mba@charusat.ac.in",
   },
   {
     id: 34,
