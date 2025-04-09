@@ -416,6 +416,16 @@ const facultyMembers = [
   },
   {
     id: 31,
+    name: "Ms. Nilam Parmar",
+    designation: "Assistant Professor",
+    qualification: "PhD(Pursuing),M.Com.,BBA",
+    specialization:
+      "Business Analytics, Marketing Management, Financial Management",
+    image: "/assets/faculty/31_Ms_NilamParmar.jpg",
+    email: "nilamparmar.mba@charusat.ac.in",
+  },
+  {
+    id: 32,
     name: "Mr. Snehalkumar Patel",
     designation:
       "Lab Technician, Technical Associate, Online Education (Audio-Video Recording and Editing)",
@@ -425,7 +435,7 @@ const facultyMembers = [
     email: "snehalpatel.mba@charusat.ac.in",
   },
   {
-    id: 32,
+    id: 33,
     name: "Mr. Dipak Patel",
     designation: "Librarian",
     qualification: " MLib,BA",
@@ -434,7 +444,7 @@ const facultyMembers = [
     email: "dipakpatel.lib@charusat.ac.in",
   },
   {
-    id: 33,
+    id: 34,
     name: "Mr. Divyesh Patel",
     designation: "Office Assistant",
     qualification: "B.Com",
@@ -443,7 +453,7 @@ const facultyMembers = [
     email: "divyeshpatel.mba@charusat.ac.in",
   },
   {
-    id: 34,
+    id: 35,
     name: "Mr. Ishan Patel",
     designation: "Office Assistant",
     qualification: " M.Tech(EVD),B.Tech(EC)",
@@ -452,7 +462,7 @@ const facultyMembers = [
     email: "ishanpatel.mba@charusat.ac.in",
   },
   {
-    id: 35,
+    id: 36,
     name: "Mr. Amit Patel",
     designation: "Office Attendant",
     qualification: "10th Pass",
@@ -461,7 +471,7 @@ const facultyMembers = [
     email: "---",
   },
   {
-    id: 36,
+    id: 37,
     name: "Mr. Jinal Patel",
     designation: "Office Attendant",
     qualification: " B.Com ",
