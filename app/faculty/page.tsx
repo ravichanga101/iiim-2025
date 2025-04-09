@@ -390,10 +390,11 @@ const facultyMembers = [
     id: 28,
     name: "Dr. Mehul Shah",
     designation: "Assistant Professor",
-    qualification: " PhD(Pursuing),MBA",
-    specialization: "Human Resources Management, Organizational Behaviour",
+    qualification: " PhD,MBA",
+    specialization:
+      "Quantitative techniques, Operation Research , Strategic Management",
     image: "/assets/faculty/28_Dr. Mehul Shah.png",
-    email: "****@charusat.ac.in",
+    email: "mehulshah.mba@charusat.ac.in",
   },
   {
     id: 29,
