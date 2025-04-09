@@ -418,7 +418,7 @@ const facultyMembers = [
     id: 31,
     name: "Ms. Nilam Parmar",
     designation: "Assistant Professor",
-    qualification: "PhD(Pursuing),M.Com.,BBA",
+    qualification: "PhD(Pursuing),M.Com.,BBA,PGDBM,DTP",
     specialization:
       "Business Analytics, Marketing Management, Financial Management",
     image: "/assets/faculty/31_Ms_NilamParmar.jpg",
