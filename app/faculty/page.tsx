@@ -425,6 +425,16 @@ const facultyMembers = [
     email: "nilamparmar.mba@charusat.ac.in",
   },
   {
+    id: 311,
+    name: "Dr. Sumetha Madhu",
+    designation: "Assistant Professor",
+    qualification: "PhD,MBA",
+    specialization:
+      "Business Analytics, Marketing Management, Financial Management",
+    image: "/assets/faculty/32_Dr_Sumetha.jpg",
+    email: "sumethamadhu.mba@charusat.ac.in",
+  },
+  {
     id: 32,
     name: "Mr. Snehalkumar Patel",
     designation:
