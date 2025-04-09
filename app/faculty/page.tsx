@@ -103,14 +103,14 @@ export default function FacultyPage() {
 
 function FacultyCard({ faculty }) {
   return (
-    <div className="group flex flex-col overflow-hidden w-[260px] max-w-[400px] border bg-primary/10 shadow-sm transition-all hover:shadow-md rounded-xl mx-auto">
+    <div className="group flex flex-col overflow-hidden w-[280px] max-w-[400px] border bg-primary/10 shadow-sm transition-all hover:shadow-md rounded-xl mx-auto">
       {/* Faculty Image */}
       <div className="overflow-hidden mx-auto p-4">
         <Image
           src={faculty.image || "/placeholder.svg"}
           alt={faculty.name}
-          width={165}
-          height={165}
+          width={200}
+          height={200}
           className="mx-auto object-cover border-2 border-red-600 transition-transform duration-300 rounded-xl"
         />
       </div>
