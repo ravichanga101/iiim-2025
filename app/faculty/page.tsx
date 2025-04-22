@@ -379,9 +379,9 @@ const facultyMembers = [
   },
   {
     id: 27,
-    name: "Mr. Ojisha Bhardwaj",
+    name: "Ms. Ojisha Bhardwaj",
     designation: "Assistant Professor",
-    qualification: " PhD(Pursuing),MBA",
+    qualification: " MBA",
     specialization: "Law,HR",
     image: "/assets/faculty/27_Dr. Ojisha Bhardwaj.png",
     email: "ojishabhardwaj.mba@charusat.ac.in",
