@@ -158,8 +158,10 @@ const facultyMembers = [
     id: 3,
     name: "Dr. Rajesh Sadhwani",
     designation: "Assistant Professor",
-    qualification: "PhD, MBA, M.Com",
-    specialization: "Financial Management, Investment Analysis",
+    qualification:
+      "Ph.D. (Finance), MBA (Finance), BSc. (Electronics), FTM- IIT Kanpur, FDP- IIM Ahmedabad",
+    specialization:
+      "Financial Management, Financial Technology and Management, Derivatives and Risk Management",
     image: "/assets/faculty/3_Dr. Rajesh Sadhwani.png",
     email: "rajeshsadhwani.mba@charusat.ac.in",
   },
