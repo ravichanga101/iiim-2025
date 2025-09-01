@@ -8,14 +8,14 @@ function NewsletterPage() {
       title: "July 2025 Newsletter",
       description:
         "Catch up on the latest updates, events, and achievements at IIIM for July 2025.",
-      link: "/assets/files/newsletters/2024/July-2025.pdf",
+      link: "/assets/files/newsletters/2025/July-2025.pdf",
     },
     {
       id: 20255,
       title: "May - June 2025 Newsletter",
       description:
         "Catch up on the latest updates, events, and achievements at IIIM for May - June 2025.",
-      link: "/assets/files/newsletters/2024/May-June-2025.pdf",
+      link: "/assets/files/newsletters/2025/May-June-2025.pdf",
     },
     {
       id: 20254,
