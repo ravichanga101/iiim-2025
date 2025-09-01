@@ -4,6 +4,34 @@ import { FileText } from "lucide-react"; // Import PDF icon
 function NewsletterPage() {
   const newsletters = [
     {
+      id: 20256,
+      title: "July 2025 Newsletter",
+      description:
+        "Catch up on the latest updates, events, and achievements at IIIM for July 2025.",
+      link: "/assets/files/newsletters/2024/July-2025.pdf",
+    },
+    {
+      id: 20255,
+      title: "May - June 2025 Newsletter",
+      description:
+        "Catch up on the latest updates, events, and achievements at IIIM for May - June 2025.",
+      link: "/assets/files/newsletters/2024/May-June-2025.pdf",
+    },
+    {
+      id: 20254,
+      title: "April 2025 Newsletter",
+      description:
+        "Catch up on the latest updates, events, and achievements at IIIM for April 2025.",
+      link: "/assets/files/newsletters/2025/April-2025.pdf",
+    },
+    {
+      id: 20253,
+      title: "March 2025 Newsletter",
+      description:
+        "Catch up on the latest updates, events, and achievements at IIIM for March 2025.",
+      link: "/assets/files/newsletters/2025/March-2025.pdf",
+    },
+    {
       id: 20252,
       title: "February 2025 Newsletter",
       description:
