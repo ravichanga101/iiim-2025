@@ -138,32 +138,32 @@ const facultyMembers = [
   {
     id: 1,
     name: "Dr. Reshma Sable",
-    designation: "Dean(FMS)",
+    designation: "Principal, IIIM",
     qualification: "PhD, MBA(HRM),M.Ed.,MSc",
     specialization: "Organisational Behaviour, Emotional Intelligence",
     image: "/assets/faculty/1_Dr. Reshma Sable.png",
-    email: "dean.fms@charusat.ac.in",
+    email: "",
   },
-  {
-    id: 2,
-    name: "Dr. Binit Patel ",
-    designation: "Principal,IIIM",
-    qualification:
-      "PhD, MBA(Marketing),BE(Computer Science), EP(BA),CORe - Harvard Business School (Online)",
-    specialization: "Marketing, Consumer Behavior, General & IT Management",
-    image: "/assets/faculty/2_Dr. Binit Patel.png",
-    email: "principal.iiim@charusat.ac.in",
-  },
+  // {
+  //   id: 2,
+  //   name: "Dr. Binit Patel ",
+  //   designation: "Principal,IIIM",
+  //   qualification:
+  //     "PhD, MBA(Marketing),BE(Computer Science), EP(BA),CORe - Harvard Business School (Online)",
+  //   specialization: "Marketing, Consumer Behavior, General & IT Management",
+  //   image: "/assets/faculty/2_Dr. Binit Patel.png",
+  //   email: "principal.iiim@charusat.ac.in",
+  // },
   {
     id: 3,
     name: "Dr. Rajesh Sadhwani",
-    designation: "Assistant Professor",
+    designation: "Dean(FMS)",
     qualification:
       "Ph.D. (Finance), MBA (Finance), BSc. (Electronics), FTM- IIT Kanpur, FDP- IIM Ahmedabad",
     specialization:
       "Financial Management, Financial Technology and Management, Derivatives and Risk Management",
     image: "/assets/faculty/3_Dr. Rajesh Sadhwani.png",
-    email: "rajeshsadhwani.mba@charusat.ac.in",
+    email: "dean.fms@charusat.ac.in",
   },
   {
     id: 4,
