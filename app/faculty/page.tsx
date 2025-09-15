@@ -142,7 +142,7 @@ const facultyMembers = [
     qualification: "PhD, MBA(HRM),M.Ed.,MSc",
     specialization: "Organisational Behaviour, Emotional Intelligence",
     image: "/assets/faculty/1_Dr. Reshma Sable.png",
-    email: "",
+    email: "principal.iiim@charusat.ac.in",
   },
   // {
   //   id: 2,
