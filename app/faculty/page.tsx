@@ -135,15 +135,6 @@ function FacultyCard({ faculty }) {
 }
 
 const facultyMembers = [
-  {
-    id: 1,
-    name: "Dr. Reshma Sable",
-    designation: "Principal, IIIM",
-    qualification: "PhD, MBA(HRM),M.Ed.,MSc",
-    specialization: "Organisational Behaviour, Emotional Intelligence",
-    image: "/assets/faculty/1_Dr. Reshma Sable.png",
-    email: "principal.iiim@charusat.ac.in",
-  },
   // {
   //   id: 2,
   //   name: "Dr. Binit Patel ",
@@ -165,6 +156,17 @@ const facultyMembers = [
     image: "/assets/faculty/3_Dr. Rajesh Sadhwani.png",
     email: "dean.fms@charusat.ac.in",
   },
+  {
+    id: 1,
+    name: "Dr. Reshma Sable",
+    designation: "Principal, IIIM",
+    qualification:
+      "PhD, MBA(HRM), M.Ed., MSc, BEd., BSc, NET-HR/IR, NET-Education, SET-Education",
+    specialization: "Organisational Behaviour, Emotional Intelligence",
+    image: "/assets/faculty/1_Dr. Reshma Sable.png",
+    email: "principal.iiim@charusat.ac.in",
+  },
+
   {
     id: 4,
     name: "Dr. Mukesh Pal",
