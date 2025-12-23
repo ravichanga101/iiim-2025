@@ -230,15 +230,7 @@ const facultyMembers = [
     image: "/assets/faculty/10_Dr. Archana Sarkar.png",
     email: "archanasarkar.mba@charusat.ac.in",
   },
-  {
-    id: 11,
-    name: "Dr. Ruma Pal",
-    designation: "Assistant Professor",
-    qualification: "PhD,MBA,BCom",
-    specialization: "Serivce & Retail Marketing",
-    image: "/assets/faculty/11_Dr. Ruma Pal.png",
-    email: "rumapal.mba@charusat.ac.in",
-  },
+  
   {
     id: 12,
     name: "Dr. Poonam Amrutia",
@@ -437,16 +429,7 @@ const facultyMembers = [
     image: "/assets/faculty/32_Dr_Sumetha.jpg",
     email: "sumethamadhu.mba@charusat.ac.in",
   },
-  {
-    id: 321,
-    name: "Ms. Sweta Gurung",
-    designation: "Assistant Professor",
-    qualification: "MBA, BBA",
-    specialization:
-      "Data Analytics, Machine Learning, Neural Network Architecture",
-    image: "/assets/faculty/33_sweta.jpg",
-    email: "swetagurung.mba@charusat.ac.in",
-  },
+  
   {
     id: 32,
     name: "Mr. Snehalkumar Patel",
