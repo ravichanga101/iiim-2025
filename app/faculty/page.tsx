@@ -56,7 +56,7 @@ export default function FacultyPage() {
           </div>
           <Tabs defaultValue="all">
             <TabsContent value="all" className="mt-0">
-              <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-4 xl:grid-cols-4">
+              <div className="grid gap-6 grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 xl:grid-cols-4">
                 {facultyMembers.map((faculty) => (
                   <FacultyCard key={faculty.id} faculty={faculty} />
                 ))}
@@ -102,30 +102,36 @@ export default function FacultyPage() {
 }
 
 function FacultyCard({ faculty }) {
+  const interests =
+    faculty.specialization?.split(",").map((i) => i.trim()).filter(Boolean) ?? [];
+  const interestsText = interests.length ? interests.join(", ") : (faculty.specialization ?? "");
+
   return (
-    <div className="group flex flex-col overflow-hidden w-[280px] max-w-[400px] border bg-primary/10 shadow-sm transition-all hover:shadow-md rounded-xl mx-auto">
-      {/* Faculty Image */}
-      <div className="overflow-hidden mx-auto p-4">
+    <div className="group flex flex-col overflow-hidden rounded-2xl border bg-primary/10 shadow-md hover:shadow-lg transition-shadow h-[520px]">
+      {/* Image (uniform size, white background around the photo) */}
+      <div className="relative h-[260px] overflow-hidden flex items-end justify-center bg-white">
         <Image
           src={faculty.image || "/placeholder.svg"}
           alt={faculty.name}
-          width={200}
-          height={200}
-          className="mx-auto object-cover border-2 border-red-600 transition-transform duration-300 rounded-xl"
+          fill
+          sizes="(min-width: 1024px) 25vw, 50vw"
+          className="object-contain object-bottom w-full h-full"
         />
       </div>
-
-      {/* Faculty Info */}
-      <div className="flex flex-col flex-1 p-4 text-center">
-        <h3 className="font-bold text-lg">{faculty.name}</h3>
-        <p className="text-sm text-primary">{faculty.designation}</p>
-        <p className="mt-1 text-xs text-muted-foreground">
-          {faculty.qualification}
+      {/* Content */}
+      <div className="flex-1 bg-background p-5 text-center">
+        <h3 className="text-xl font-bold tracking-tight text-primary">{faculty.name}</h3>
+        <p className="mt-1 text-sm uppercase tracking-wide text-muted-foreground">
+          <b>{faculty.designation}</b>
         </p>
-        <p className="mt-2 text-sm">{faculty.specialization}</p>
+        <p className="mt-1 text-sm text-muted-foreground">{faculty.qualification}</p>
 
-        {/* Email Section */}
-        <div className="mt-auto pt-4 text-xs">
+        <p className="mt-4 text-sm font-semibold text-primary">Research Interests:</p>
+        <p className="mt-1 text-sm leading-6 text-foreground">
+          {interestsText}
+        </p>
+
+        <div className="mt-4 border-t pt-3 text-xs text-muted-foreground">
           <Mail className="inline-block mr-2 h-4 w-4" />
           {faculty.email}
         </div>
