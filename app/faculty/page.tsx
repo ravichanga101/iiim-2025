@@ -101,10 +101,22 @@ export default function FacultyPage() {
   );
 }
 
-function FacultyCard({ faculty }) {
-  const interests =
-    faculty.specialization?.split(",").map((i) => i.trim()).filter(Boolean) ?? [];
-  const interestsText = interests.length ? interests.join(", ") : (faculty.specialization ?? "");
+type Faculty = {
+  id: number;
+  name: string;
+  designation: string;
+  qualification: string;
+  specialization?: string;
+  image?: string;
+  email?: string;
+};
+
+function FacultyCard({ faculty }: { faculty: Faculty }) {
+  const interests = (faculty.specialization ?? "")
+    .split(",")
+    .map((i) => i.trim())
+    .filter(Boolean);
+  const interestsText = interests.length ? interests.join(", ") : "";
 
   return (
     <div className="group flex flex-col overflow-hidden rounded-2xl border bg-primary/10 shadow-md hover:shadow-lg transition-shadow h-[520px]">
@@ -118,6 +130,7 @@ function FacultyCard({ faculty }) {
           className="object-contain object-bottom w-full h-full"
         />
       </div>
+
       {/* Content */}
       <div className="flex-1 bg-background p-5 text-center">
         <h3 className="text-xl font-bold tracking-tight text-primary">{faculty.name}</h3>
@@ -127,9 +140,7 @@ function FacultyCard({ faculty }) {
         <p className="mt-1 text-sm text-muted-foreground">{faculty.qualification}</p>
 
         <p className="mt-4 text-sm font-semibold text-primary">Research Interests:</p>
-        <p className="mt-1 text-sm leading-6 text-foreground">
-          {interestsText}
-        </p>
+        <p className="mt-1 text-sm leading-6 text-foreground">{interestsText}</p>
 
         <div className="mt-4 border-t pt-3 text-xs text-muted-foreground">
           <Mail className="inline-block mr-2 h-4 w-4" />
