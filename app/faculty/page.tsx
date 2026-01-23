@@ -165,22 +165,22 @@ const facultyMembers = [
   {
     id: 3,
     name: "Dr. Rajesh Sadhwani",
-    designation: "Dean(FMS)",
+    designation: "Dean (FMS)",
     qualification:
-      "Ph.D. (Finance), MBA (Finance), BSc. (Electronics), FTM- IIT Kanpur, FDP- IIM Ahmedabad",
+      "Ph.D. (Finance), MBA (Finance), BSc. (Electronics)",
     specialization:
-      "Financial Management, Financial Technology and Management, Derivatives and Risk Management",
-    image: "/assets/faculty/3_Dr. Rajesh Sadhwani.png",
+      "Financial Technology and Management,Derivatives and Risk Management",
+    image: "/assets/Faculty_Photos/Dr. Rajesh Sadhwani.png",
     email: "dean.fms@charusat.ac.in",
   },
   {
     id: 1,
     name: "Dr. Reshma Sable",
-    designation: "Principal, IIIM",
+    designation: "Principal",
     qualification:
       "PhD, MBA(HRM), M.Ed., MSc, BEd., BSc, NET-HR/IR, NET-Education, SET-Education",
     specialization: "Organisational Behaviour, Emotional Intelligence",
-    image: "/assets/faculty/1_Dr. Reshma Sable.png",
+    image: "/assets/Faculty_Photos/Dr. Reshma Sable.png",
     email: "principal.iiim@charusat.ac.in",
   },
 
@@ -188,9 +188,9 @@ const facultyMembers = [
     id: 4,
     name: "Dr. Mukesh Pal",
     designation: "Assistant Professor",
-    qualification: "PhD, MBA",
+    qualification: "Ph.D., MBA (Marketing (Major) and Finance)",
     specialization: "Human Resource Management, Organizational Behavior",
-    image: "/assets/faculty/4_Dr. Mukesh Pal.png",
+    image: "/assets/Faculty_Photos/Dr. Mukesh Pal.png",
     email: "mukeshpal.mba@charusat.ac.in",
   },
   {
@@ -199,16 +199,16 @@ const facultyMembers = [
     designation: "Assistant Professor",
     qualification: "PhD Pursuing,MBA(Finance),BCom",
     specialization: "Financial Management",
-    image: "/assets/faculty/5_Ms. Dharti Patel.png",
+    image: "/assets/Faculty_Photos/Dev Patel.png",
     email: " dhartipatel.mba@charusat.ac.in",
   },
   {
     id: 6,
     name: "Dr. Hardi Raval",
-    designation: "Assistant Professor",
+    designation: "Assistant Professor & Placement Coordinator",
     qualification: "PhD, MBA(HR)",
     specialization: "Human Resources Management",
-    image: "/assets/faculty/6_Dr. Hardi Raval.png",
+    image: "/assets/Faculty_Photos/Dr. Hardi Raval.png",
     email: "hardiraval.mba@charusat.ac.in",
   },
   {
@@ -217,7 +217,7 @@ const facultyMembers = [
     designation: "Assistant Professor",
     qualification: "MBA, UGC-NET",
     specialization: "FM, BE, ME, AM, FSS, DRM, IAPM",
-    image: "/assets/faculty/7_Dr. Gaurav Rajput.png",
+    image: "/assets/Faculty_Photos/Dr. Gaurav Rajput.png",
     email: "gauravrajput.mba@charusat.ac.in",
   },
   {
@@ -226,7 +226,7 @@ const facultyMembers = [
     designation: "Assistant Professor",
     qualification: "PhD(Pursuing),MBA(Marketing),BBA",
     specialization: "Business Alliance & Development, Marketing Management",
-    image: "/assets/faculty/8_Mr. Kirti Patel.png",
+    image: "/assets/Faculty_Photos/Mr. Kirti Patel.png",
     email: "kirtipatel.mba@charusat.ac.in",
   },
   {
@@ -235,7 +235,7 @@ const facultyMembers = [
     designation: "Assistant Professor",
     qualification: "PhD, MBA(Marketing), M.Sc., B.Sc.",
     specialization: "Marketing & Consumer Behaviour",
-    image: "/assets/faculty/9_Dr. Geeta Marmat.png",
+    image: "/assets/Faculty_Photos/Dr. Geeta Marmat.png",
     email: "geetamarmat.mba@charusat.ac.in",
   },
   {
@@ -244,7 +244,7 @@ const facultyMembers = [
     designation: "Assistant Professor",
     qualification: "Ph.D(Management), UGC-NET, MBA(Marketing)",
     specialization: "Marketing Management, Research, Entrepreneurship",
-    image: "/assets/faculty/10_Dr. Archana Sarkar.png",
+    image: "/assets/Faculty_Photos/Dr. Archana Sarkar.png",
     email: "archanasarkar.mba@charusat.ac.in",
   },
   
@@ -254,7 +254,7 @@ const facultyMembers = [
     designation: "Assistant Professor",
     qualification: "PhD, MBA",
     specialization: "Marketing Management, Consumer Behaviour, Sustainability",
-    image: "/assets/faculty/12_Dr. Poonam Amrutia.png",
+    image: "/assets/Faculty_Photos/Ms. Poonam Amrutia.png",
     email: "poonamamrutia.mba@charusat.ac.in",
   },
   {
@@ -263,7 +263,7 @@ const facultyMembers = [
     designation: "Assistant Professor",
     qualification: "PhD(Pursuing),MBA(Marketing),BBA",
     specialization: "Marketing Management",
-    image: "/assets/faculty/13_Ms. Margi Mehta.png",
+    image: "/assets/Faculty_Photos/Ms. Margi Mehta.png",
     email: "margimehta.mba@charusat.ac.in",
   },
 
@@ -273,7 +273,7 @@ const facultyMembers = [
     designation: "Assistant Professor",
     qualification: "PhD, M.Phil., MCom",
     specialization: "Accounting, Finance, Business Laws",
-    image: "/assets/faculty/14_Dr. Jaimin Trivedi.png",
+    image: "/assets/Faculty_Photos/Dr. Jaymin Trivedi.png",
     email: "jaimintrivedi.mba@charusat.ac.in",
   },
   {
@@ -282,7 +282,7 @@ const facultyMembers = [
     designation: "Assistant Professor",
     qualification: "PhD, MBA (Marketing), B.E. (Mechanical)",
     specialization: "Marketing, Entrepreneurship, International Business, HRM",
-    image: "/assets/faculty/15_Dr. Divyang Purohit.png",
+    image: "/assets/Faculty_Photos/Dr. Divyang Purohit.png",
     email: "divyangpurohit.mba@charusat.ac.in",
   },
   {
@@ -292,7 +292,7 @@ const facultyMembers = [
     qualification: "PhD(Pursuing),MBA(Marketing),BBA",
     specialization:
       "Project Management, General Management, Organizational Behaviour",
-    image: "/assets/faculty/16_Ms. Khushboo Bhatt.png",
+    image: "/assets/Faculty_Photos/Ms. Khusboo Bhatt.png",
     email: "khushboobhatt.mba@charusat.ac.in",
   },
   {
@@ -301,7 +301,7 @@ const facultyMembers = [
     designation: "Assistant Professor",
     qualification: "PhD,MBA,BCom",
     specialization: "H.R., Organisational Behaviour",
-    image: "/assets/faculty/17_Dr. Shabana Anjum.png",
+    image: "/assets/Faculty_Photos/Dr. Shabana Anjum.png",
     email: "shabanaanjum.mba@charusat.ac.in",
   },
   {
@@ -310,7 +310,7 @@ const facultyMembers = [
     designation: "Assistant Professor",
     qualification: "MBA,BCA",
     specialization: "Marketing and IT",
-    image: "/assets/faculty/18_Mr. Mahendra H Prajapati.png",
+    image: "/assets/Faculty_Photos/Mr. Mahendra Prajapati.png",
     email: "mahendraprajapati.mba@charusat.ac.in",
   },
   {
@@ -319,7 +319,7 @@ const facultyMembers = [
     designation: "Assistant Professor",
     qualification: "PhD,M.Sc.(IT),M.Sc.(Statistics)",
     specialization: "Data Mining, Statistical Application, Data Analytics",
-    image: "/assets/faculty/19_Dr. Gopalbhai G Shah.png",
+    image: "/assets/Faculty_Photos/Dr. Gopal Shah.png",
     email: "gopalshah.mba@charusat.ac.in",
   },
 
@@ -330,7 +330,7 @@ const facultyMembers = [
     qualification: " PhD(Pursuing),MBA,BBA",
     specialization:
       "HR Management, Organizational Behaviour, Marketing Management, General Management",
-    image: "/assets/faculty/20_Ms. Khushali Pathak.png",
+    image: "/assets/Faculty_Photos/Ms. Khushali Pathak.png",
     email: "khushalipathak.mba@charusat.ac.in",
   },
   {
@@ -339,7 +339,7 @@ const facultyMembers = [
     designation: "Assistant Professor",
     qualification: " PhD(Pursuing),MBA,BBA",
     specialization: "Finance/Accounting",
-    image: "/assets/faculty/21_Mr. Surpalsinh B Rathod.png",
+    image: "/assets/Faculty_Photos/Mr. Surpalsinh Rathod.png",
     email: "surpalrathod.mba@charusat.ac.in",
   },
   {
@@ -348,7 +348,7 @@ const facultyMembers = [
     designation: "Assistant Professor",
     qualification: " PhD(Pursuing),MBA(Finance)",
     specialization: "Financial Accounting",
-    image: "/assets/faculty/22_Ms. Rania Pathan.png",
+    image: "/assets/Faculty_Photos/Ms. Rania Pathan.png",
     email: "raniapathan.mba@charusat.ac.in",
   },
   {
@@ -358,7 +358,7 @@ const facultyMembers = [
     qualification: " PhD(Pursuing),MHRM",
     specialization:
       "HR Management, Organisational Behaviour, Industrial Relations/Labour laws",
-    image: "/assets/faculty/23_Mr. Brijesh Patel.png",
+    image: "/assets/Faculty_Photos/Mr. Brijesh Patel.png",
     email: "brijeshpatel.mba@charusat.ac.in",
   },
   {
@@ -368,7 +368,7 @@ const facultyMembers = [
     qualification: " PhD(Pursuing),MHRM",
     specialization:
       "HR Management, Organisational Behaviour, Industrial Relations/Labour laws",
-    image: "/assets/faculty/24_Ms. Foram Pathak.png",
+    image: "/assets/Faculty_Photos/Ms. Riddhi Soneji.png",
     email: "forampathak.mba@charusat.ac.in",
   },
 
@@ -378,7 +378,7 @@ const facultyMembers = [
     designation: "Assistant Professor",
     qualification: " PhD(Pursuing),MBA",
     specialization: "Human Resources Management, Organizational Behaviour",
-    image: "/assets/faculty/25_Mrs. Nikita R. Chhasatiya.png",
+    image: "/assets/Faculty_Photos/Ms. Nikita Chhasatiya.png",
     email: "nikitachhasatiya.mba@charusat.ac.in",
   },
   {
@@ -387,7 +387,7 @@ const facultyMembers = [
     designation: "Assistant Professor",
     qualification: " PhD(Pursuing),MBA",
     specialization: "Human Resources Management, Organizational Behaviour",
-    image: "/assets/faculty/26_Ms Riddhi Soneji.png",
+    image: "/assets/Faculty_Photos/Ms. Riddhi Soneji.png",
     email: "riddhisoneji.mba@charusat.ac.in",
   },
   {
@@ -396,7 +396,7 @@ const facultyMembers = [
     designation: "Assistant Professor",
     qualification: " MBA",
     specialization: "Law,HR",
-    image: "/assets/faculty/27_Dr. Ojisha Bhardwaj.png",
+    image: "/assets/Faculty_Photos/Dev Patel.png",
     email: "ojishabhardwaj.mba@charusat.ac.in",
   },
   {
@@ -406,7 +406,7 @@ const facultyMembers = [
     qualification: " PhD,MBA",
     specialization:
       "Quantitative Techniques, Operation Research , Strategic Management",
-    image: "/assets/faculty/28_Dr. Mehul Shah.png",
+    image: "/assets/Faculty_Photos/Dr. Gopal Shah.png",
     email: "mehulshah.mba@charusat.ac.in",
   },
   {
@@ -415,7 +415,7 @@ const facultyMembers = [
     designation: "Assistant Professor",
     qualification: " MBA(Finance + Marketing)",
     specialization: "Business Analytics, Finance, Marketing",
-    image: "/assets/faculty/29_Ms. Aashita Agrawal.png",
+    image: "/assets/Faculty_Photos/Ms. Aashita Agrawal.png",
     email: "aashitaagrawal.mba@charusat.ac.in",
   },
   {
@@ -424,7 +424,7 @@ const facultyMembers = [
     designation: "Assistant Professor",
     qualification: " PhD(Pursuing),M.Phil.,M.Com.",
     specialization: "Marketing Management, Human Resource Management",
-    image: "/assets/faculty/30_Mrs. S. Subhashree.png",
+    image: "/assets/Faculty_Photos/Ms. Subhashree S.png",
     email: "subhashrees.mba@charusat.ac.in",
   },
   {
@@ -434,7 +434,7 @@ const facultyMembers = [
     qualification: "PhD,M.Com.,BBA,PGDBM,DTP",
     specialization:
       "Business Analytics, Marketing Management, Financial Management",
-    image: "/assets/faculty/31_Ms_NilamParmar.jpg",
+    image: "/assets/Faculty_Photos/Dr. Nilam Parmar.png",
     email: "nilamparmar.mba@charusat.ac.in",
   },
   {
@@ -443,7 +443,7 @@ const facultyMembers = [
     designation: "Assistant Professor",
     qualification: "Ph.D., M.Phil. M.Com",
     specialization: "Marketing Management, Human Resource Management",
-    image: "/assets/faculty/32_Dr_Sumetha.jpg",
+    image: "/assets/Faculty_Photos/Dr. Sumetha Madhu.png",
     email: "sumethamadhu.mba@charusat.ac.in",
   },
   
@@ -454,7 +454,7 @@ const facultyMembers = [
       "Lab Technician, Technical Associate, Online Education (Audio-Video Recording and Editing)",
     qualification: " PhD(Purshing),MSc.IT,BIT",
     specialization: "Microsoft Specialist and Certified Professional",
-    image: "/assets/faculty/NT_1_Mr. Snehalkumar Patel.png",
+    image: "/assets/Faculty_Photos/Mr. Snehal Patel.png",
     email: "snehalpatel.mba@charusat.ac.in",
   },
   {
@@ -463,7 +463,7 @@ const facultyMembers = [
     designation: "Librarian",
     qualification: " MLib,BA",
     specialization: "Information Collection Development and Management System",
-    image: "/assets/faculty/NT_2_Mr. Dipak Patel.png",
+    image: "/assets/Faculty_Photos/Dipak Patel.png",
     email: "dipakpatel.lib@charusat.ac.in",
   },
   {
@@ -472,7 +472,7 @@ const facultyMembers = [
     designation: "Office Assistant",
     qualification: "B.Com",
     specialization: "Information Collection Development and Management System",
-    image: "/assets/faculty/NT_3_Divyesh Patel.png",
+    image: "/assets/Faculty_Photos/Mr. Divyesh Patel.png",
     email: "divyeshpatel.mba@charusat.ac.in",
   },
   {
@@ -481,7 +481,7 @@ const facultyMembers = [
     designation: "Office Assistant",
     qualification: " M.Tech(EVD),B.Tech(EC)",
     specialization: "VLSI, Management",
-    image: "/assets/faculty/NT_4_Mr. Ishan Patel.png",
+    image: "/assets/Faculty_Photos/Mr. Ishan Patel.png",
     email: "ishanpatel.mba@charusat.ac.in",
   },
   {
@@ -490,7 +490,7 @@ const facultyMembers = [
     designation: "Office Attendant",
     qualification: "10th Pass",
     specialization: "Operation of the Office Management",
-    image: "/assets/faculty/NT_5_Mr. Amit Patel.png",
+    image: "/assets/Faculty_Photos/Mr. Amit Patel.png",
     email: "---",
   },
   {
@@ -499,7 +499,7 @@ const facultyMembers = [
     designation: "Office Attendant",
     qualification: " B.Com ",
     specialization: "Operation of the Office Management",
-    image: "/assets/faculty/NT_6_Mr. Jinal Patel.png",
+    image: "/assets/Faculty_Photos/Mr. Jinal Patel.png",
     email: "---",
   },
 ];
