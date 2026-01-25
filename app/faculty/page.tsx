@@ -126,7 +126,9 @@ function FacultyCard({ faculty }: { faculty: Faculty }) {
           src={faculty.image || "/placeholder.svg"}
           alt={faculty.name}
           fill
-          sizes="(min-width: 1024px) 25vw, 50vw"
+          quality={70}
+          //sizes="(min-width: 1024px) 25vw, 50vw"
+          sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 25vw"
           className="object-contain object-bottom w-full h-full"
         />
       </div>
