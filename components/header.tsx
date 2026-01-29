@@ -242,6 +242,11 @@ const menuItems = [
             href: "https://support.charusat.edu.in/FeesPaymentApp/",
             target: "_blank",
           },
+          {
+            title: "Facilities",
+            href: "/assets/files/Facilities.pdf",
+            target: "_blank",
+          },
         ],
       },
       // {
