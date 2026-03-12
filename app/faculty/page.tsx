@@ -154,16 +154,16 @@ function FacultyCard({ faculty }: { faculty: Faculty }) {
 }
 
 const facultyMembers = [
-  // {
-  //   id: 2,
-  //   name: "Dr. Binit Patel ",
-  //   designation: "Principal,IIIM",
-  //   qualification:
-  //     "PhD, MBA(Marketing),BE(Computer Science), EP(BA),CORe - Harvard Business School (Online)",
-  //   specialization: "Marketing, Consumer Behavior, General & IT Management",
-  //   image: "/assets/faculty/2_Dr. Binit Patel.png",
-  //   email: "principal.iiim@charusat.ac.in",
-  // },
+  {
+    id: 2,
+    name: "Dr. Binit Patel ",
+    designation: "Registrar",
+    qualification:
+      "PhD, MBA(Marketing),BE(Computer Science), EP(BA),CORe - Harvard Business School (Online)",
+    specialization: "Marketing, Consumer Behavior, General & IT Management",
+    image: "/assets/faculty/BinitSir.jpg",
+    email: "principal.iiim@charusat.ac.in",
+  },
   {
     id: 3,
     name: "Dr. Rajesh Sadhwani",
