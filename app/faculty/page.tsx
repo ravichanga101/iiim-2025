@@ -159,10 +159,10 @@ const facultyMembers = [
     name: "Dr. Binit Patel ",
     designation: "Registrar",
     qualification:
-      "PhD, MBA(Marketing),BE(Computer Science), EP(BA),CORe - Harvard Business School (Online)",
-    specialization: "Marketing, Consumer Behavior, General & IT Management",
-    image: "/assets/faculty/BinitSir.jpg",
-    email: "principal.iiim@charusat.ac.in",
+      "PhD, MBA (Marketing), BE (Computer Science), EP-BA (IIM, Kozhikode), CORe - Harvard Business School (Online)",
+    specialization: "Marketing, Consumer Behavior, Business Analytics",
+    image: "/assets/faculty/BinitSir_3.jpg",
+    email: "registrar@charusat.ac.in",
   },
   {
     id: 3,
