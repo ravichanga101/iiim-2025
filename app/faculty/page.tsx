@@ -201,7 +201,7 @@ const facultyMembers = [
     designation: "Assistant Professor",
     qualification: "PhD Pursuing,MBA(Finance),BCom",
     specialization: "Financial Management",
-    image: "assets/faculty/5_Ms. Dharti Patel.png",
+    image: "/assets/faculty/5_Ms. Dharti Patel.png",
     email: " dhartipatel.mba@charusat.ac.in",
   },
   {
@@ -370,7 +370,7 @@ const facultyMembers = [
     qualification: " PhD(Pursuing),MHRM",
     specialization:
       "HR Management, Organisational Behaviour, Industrial Relations/Labour laws",
-    image: "assets/faculty/24_Ms. Foram Pathak.png",
+    image: "/assets/faculty/24_Ms. Foram Pathak.png",
     email: "forampathak.mba@charusat.ac.in",
   },
 
@@ -398,7 +398,7 @@ const facultyMembers = [
     designation: "Assistant Professor",
     qualification: " MBA",
     specialization: "Law,HR",
-    image: "assets/faculty/27_Dr. Ojisha Bhardwaj.png",
+    image: "/assets/faculty/27_Dr. Ojisha Bhardwaj.png",
     email: "ojishabhardwaj.mba@charusat.ac.in",
   },
   {
@@ -408,7 +408,7 @@ const facultyMembers = [
     qualification: " PhD,MBA",
     specialization:
       "Quantitative Techniques, Operation Research , Strategic Management",
-    image: "assets/faculty/28_Dr. Mehul Shah.png",
+    image: "/assets/faculty/28_Dr. Mehul Shah.png",
     email: "mehulshah.mba@charusat.ac.in",
   },
   {
