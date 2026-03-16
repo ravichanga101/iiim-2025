@@ -31,7 +31,7 @@ export function AnimatedPrograms() {
   const programs = {
     all: [
       {
-        title: "BBA",
+        title: "BBA / BBA (Hons.)",
         subtitle: "Bachelor of Business Administration",
         description:
           "A three/four years undergraduate program focusing on fundamental business concepts and management principles.",
@@ -43,7 +43,7 @@ export function AnimatedPrograms() {
           { icon: Clock, text: "3/4 Years" },
           // { icon: Calendar, text: "June / July Intake" },
           { icon: Award, text: "UGC / AICTE Approved" },
-          { icon: IndianRupee, text: "1,00,000 / year" },
+          { icon: IndianRupee, text: "1,20,000 / year" },
         ],
         details: "/assets/files/programs/BBA_Programs_Details.pdf",
       },
@@ -59,14 +59,14 @@ export function AnimatedPrograms() {
           { icon: Clock, text: "2 Years" },
           // { icon: Calendar, text: "July / August Intake" },
           { icon: Award, text: "AICTE Approved" },
-          { icon: IndianRupee, text: "1,45,000 / year" },
+          { icon: IndianRupee, text: "1,65,000 / year" },
         ],
         details: "/assets/files/programs/MBA_Programs_Details.pdf",
       },
 
       {
-        title: "M.Sc.(Management)",
-        subtitle: "Master of Science in Management",
+        title: "MBA (International Business)",
+        subtitle: "MBA in International Business",
         description:
           "An international exchange program with credit transfer opportunities in collaboration with Assumption University, Thailand.",
         icon: Users,
