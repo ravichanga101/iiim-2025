@@ -59,7 +59,7 @@ export function AnimatedPrograms() {
           { icon: Clock, text: "2 Years" },
           // { icon: Calendar, text: "July / August Intake" },
           { icon: Award, text: "AICTE Approved" },
-          { icon: IndianRupee, text: "1,65,000/-* per year" },
+          { icon: IndianRupee, text: "1,63,000/-* per year" },
         ],
         feeNote: "*Subject to the approval of the Appellate committee",
         details: "/assets/files/programs/MBA_Programs_Details.pdf",
