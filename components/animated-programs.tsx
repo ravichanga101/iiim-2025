@@ -26,7 +26,7 @@ import {
 import Link from "next/link";
 
 export function AnimatedPrograms() {
-  const [activeTab, setActiveTab] = useState("all");
+  const [activeTab, setActiveTab] = useState<"all">("all");
 
   const programs = {
     all: [
@@ -45,7 +45,7 @@ export function AnimatedPrograms() {
           { icon: Award, text: "UGC / AICTE Approved" },
           { icon: IndianRupee, text: "1,20,000 / year" },
         ],
-        details: "/assets/files/programs/BBA_Programs_Details.pdf",
+        details: "/assets/files/programs/BBA_Program.pdf",
       },
       {
         title: "MBA",
@@ -62,7 +62,7 @@ export function AnimatedPrograms() {
           { icon: IndianRupee, text: "1,63,000/-* per year" },
         ],
         feeNote: "*Subject to the approval of the Appellate committee",
-        details: "/assets/files/programs/MBA_Programs_Details.pdf",
+        details: "/assets/files/programs/MBA_Program.pdf",
       },
 
       {
@@ -79,7 +79,7 @@ export function AnimatedPrograms() {
           { icon: Award, text: "UGC Approved" },
           { icon: IndianRupee, text: "1,45,000 / year" },
         ],
-        details: "/assets/files/programs/MSc_Programs_Details.pdf",
+        details: "/assets/files/programs/MBA_IB_Program.pdf",
       },
     ],
     // postgraduate: [
