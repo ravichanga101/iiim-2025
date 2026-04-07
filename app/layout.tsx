@@ -1,5 +1,6 @@
 import type React from "react";
-import "@/app/globals.css";
+// @ts-ignore
+import "./globals.css";
 import { ThemeProvider } from "@/components/theme-provider";
 import Header from "@/components/header";
 import Footer from "@/components/footer";
@@ -43,5 +44,3 @@ export default function RootLayout({
     </html>
   );
 }
-
-import "./globals.css";
