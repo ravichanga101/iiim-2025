@@ -199,7 +199,7 @@ const menuItems = [
           // },
           {
             title: "Academic Calendar",
-            href: "/assets/files/IIIM-Calendar-2024-25.pdf",
+            href: "/assets/files/IIIM-Academic-Calendar-2025-26.pdf",
             target: "_blank",
           },
           {
