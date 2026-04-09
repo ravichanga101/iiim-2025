@@ -27,7 +27,7 @@ function AboutIIIM() {
             values and global perspective.
           </p>
           <div className="flex flex-col gap-2 min-[400px]:flex-row">
-            <Link href="/assets/files/IIIM-Brochure.pdf" target="_blank">
+            <Link href="/assets/files/IIIM-Admission-Booklet-2026.pdf" target="_blank">
               <Button
                 size="lg"
                 className="bg-primary hover:bg-primary/90 group"
