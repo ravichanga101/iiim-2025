@@ -1,10 +1,8 @@
 "use client";
 import Image from "next/image";
-import { Button } from "@/components/ui/button";
-import { Input } from "@/components/ui/input";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { Mail, Search } from "lucide-react";
-import Link from "next/link";
+
 
 export default function FacultyPage() {
   return (
@@ -121,7 +119,7 @@ function FacultyCard({ faculty }: { faculty: Faculty }) {
   return (
     <div className="group flex flex-col overflow-hidden rounded-2xl border bg-primary/10 shadow-md hover:shadow-lg transition-shadow h-[520px]">
       {/* Image (uniform size, white background around the photo) */}
-      <div className="relative h-[260px] overflow-hidden flex items-end justify-center bg-white">
+      <div className="relative h-[190px] overflow-hidden flex items-end justify-center bg-white">
         <Image
           src={faculty.image || "/placeholder.svg"}
           alt={faculty.name}
@@ -129,7 +127,8 @@ function FacultyCard({ faculty }: { faculty: Faculty }) {
           quality={70}
           //sizes="(min-width: 1024px) 25vw, 50vw"
           sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 25vw"
-          className="object-contain object-bottom w-full h-full"
+          //className="object-contain object-bottom w-full h-full"
+          className="object-cover object-top"
         />
       </div>
 
