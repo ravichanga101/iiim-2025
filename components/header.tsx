@@ -478,13 +478,13 @@ export default function Header() {
             />
           </Link>
           <Link href="https://www.aacsb.edu/members?page=27">
-    <Image
-      src="./AACSB-logo.svg"   // <-- Change to your logo
-      alt="Second Logo"
-      width={120}
-      height={80}
-      className="h-8 w-auto object-contain md:h-14"
-    />
+          <Image
+            src="./AACSB-logo.svg"   // <-- Change to your logo
+            alt="Second Logo"
+            width={120}
+            height={80}
+            className="h-8 w-auto object-contain md:h-14"
+          />
   </Link>
   </div>
 
