@@ -527,7 +527,7 @@ export default function Header() {
               className="absolute left-0 right-0 top-full z-50 mx-auto"
               style={{ width: "90%" }}
             >
-              {/* {menuItems.map((item) =>
+              {menuItems.map((item) =>
                 item.submenu && openMenu === item.title ? (
                   <div
                     key={`megamenu-${item.title}`}
@@ -573,8 +573,7 @@ export default function Header() {
                     </div>
                   </div>
                 ) : null
-              )} */}
-              
+              )}
             </div>
           </div>
 
