@@ -299,6 +299,22 @@ const menuItems = [
     title: "Contact",
     href: "/#contact",
   },
+  {
+    title: "AICTE",
+    href: "#",
+    submenu: [
+      {
+        title: "Documents",
+        items: [
+          {
+            title: "Mandatory Disclosure",
+            href: "/assets/files/Mandatory_Disclosure_2026.pdf",
+            target: "_blank",
+          },
+        ],
+      },
+    ],
+  },
 ];
 
 export default function Header() {
@@ -511,7 +527,7 @@ export default function Header() {
               className="absolute left-0 right-0 top-full z-50 mx-auto"
               style={{ width: "90%" }}
             >
-              {menuItems.map((item) =>
+              {/* {menuItems.map((item) =>
                 item.submenu && openMenu === item.title ? (
                   <div
                     key={`megamenu-${item.title}`}
@@ -557,7 +573,8 @@ export default function Header() {
                     </div>
                   </div>
                 ) : null
-              )}
+              )} */}
+              
             </div>
           </div>
 
