@@ -457,7 +457,7 @@ export default function Header() {
 
       {/* Main navigation */}
       <div className="container mx-auto px-2">
-        <div className="flex h-12 items-center justify-between md:h-16">
+        <div className="flex h-12 items-center md:h-16">
           {/* Logo */}
           {/* <Link href="/" className="flex items-center gap-2">
             <div className="relative h-10 w-10 overflow-hidden rounded-full bg-primary">
@@ -467,7 +467,8 @@ export default function Header() {
             </div>
             <span className="text-xl font-bold">IIIM</span>
           </Link> */}
-          <Link href="/" className="flex items-center gap-2">
+          <div className="flex items-center gap-2 md:gap-3 shrink-0">
+          <Link href="/">
             <Image
               alt="IIM logo"
               src="./assets/iiim.png"
@@ -476,9 +477,19 @@ export default function Header() {
               className="h-10 w-10 p-1 md:h-16 md:w-16 object-contain"
             />
           </Link>
+          <Link href="https://www.aacsb.edu/members?page=27">
+    <Image
+      src="./AACSB-logo.svg"   // <-- Change to your logo
+      alt="Second Logo"
+      width={120}
+      height={80}
+      className="h-8 w-auto object-contain md:h-14"
+    />
+  </Link>
+  </div>
 
           {/* Desktop Navigation */}
-          <div className="hidden md:block" ref={menuRef}>
+          <div className="hidden flex-1 justify-center md:flex" ref={menuRef}>
             <nav className="relative">
               <ul className="flex space-x-1">
                 {menuItems.map((item) => (
@@ -578,7 +589,7 @@ export default function Header() {
           </div>
 
           {/* CTA and Mobile Menu Toggle */}
-          <div className="flex items-center gap-2">
+          <div className="ml-auto flex items-center gap-2">
             {/* <Button variant="ghost" size="icon" className="hidden md:flex">
               <Search className="h-5 w-5" />
               <span className="sr-only">Search</span>
