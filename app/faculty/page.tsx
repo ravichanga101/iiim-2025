@@ -185,17 +185,9 @@ const facultyMembers = [
     email: "principal.iiim@charusat.ac.in",
   },
 
+ 
   {
     id: 3,
-    name: "Dr. Mukesh Pal",
-    designation: "Assistant Professor",
-    qualification: "PhD, MBA (Marketing), CAIIB, BBA, UGC-NET (Management)",
-    specialization: "Marketing, Banking & Financial Services",
-    image: "/assets/Faculty_Photos/3_Dr. Mukesh Pal.webp",
-    email: "mukeshpal.mba@charusat.ac.in",
-  },  
-  {
-    id: 4,
     name: "Ms. Dharti Patel",
     designation: "Assistant Professor",
     qualification: "PhD (Pursuing), MBA (Finance), BCom",
@@ -204,7 +196,7 @@ const facultyMembers = [
     email: " dhartipatel.mba@charusat.ac.in",
   },
   {
-    id: 5,
+    id: 4,
     name: "Dr. Hardi Raval",
     designation: "Assistant Professor",
     qualification: "PhD, MBA (HR & Pharmaceutical Science), PGDSM, BPharm",
@@ -213,7 +205,7 @@ const facultyMembers = [
     email: "hardiraval.mba@charusat.ac.in",
   },
   {
-    id: 6,
+    id: 5,
     name: "Dr. Gaurav Rajput",
     designation: "Assistant Professor",
     qualification: "PhD, MBA (Finance), MCom, BCom, UGC-NET (Management)",
@@ -222,7 +214,7 @@ const facultyMembers = [
     email: "gauravrajput.mba@charusat.ac.in",
   },
   {
-    id: 7,
+    id: 6,
     name: "Mr. Kirti Patel",
     designation: "Assistant Professor",
     qualification: "PhD (Pursuing), MBA (Marketing), BBA",
@@ -231,7 +223,7 @@ const facultyMembers = [
     email: "kirtipatel.mba@charusat.ac.in",
   },
   {
-    id: 8,
+    id: 7,
     name: "Dr. Geeta Marmat",
     designation: "Assistant Professor",
     qualification: "PhD, MBA (Marketing Management), MSc, BSc, UGC-NET (Management)",
@@ -240,7 +232,7 @@ const facultyMembers = [
     email: "geetamarmat.mba@charusat.ac.in",
   },
   {
-    id: 9,
+    id: 8,
     name: "Dr. Archana Sarkar",
     designation: "Assistant Professor",
     qualification: "PhD, MBA (Marketing), BBA, UGC-NET (Management)",
@@ -250,7 +242,7 @@ const facultyMembers = [
   },
   
   {
-    id: 10,
+    id: 9,
     name: "Dr. Poonam Amrutia",
     designation: "Assistant Professor",
     qualification: "PhD, MBA (Marketing), BCom",
@@ -259,7 +251,7 @@ const facultyMembers = [
     email: "poonamamrutia.mba@charusat.ac.in",
   },
   {
-    id: 11,
+    id: 10,
     name: "Ms. Margi Mehta",
     designation: "Assistant Professor",
     qualification: "PhD (Pursuing), MBA (Marketing), BBA",
@@ -269,7 +261,7 @@ const facultyMembers = [
   },
 
   {
-    id: 12,
+    id: 11,
     name: "Dr. Jaimin Trivedi",
     designation: "Assistant Professor",
     qualification: "PhD, MPhil (Commerce), MCom, BCom, LLM",
@@ -278,7 +270,7 @@ const facultyMembers = [
     email: "jaimintrivedi.mba@charusat.ac.in",
   },
   {
-    id: 13,
+    id: 12,
     name: "Dr. Divyang Purohit",
     designation: "Assistant Professor",
     qualification: "PhD, MBA (Marketing), BE",
@@ -287,7 +279,7 @@ const facultyMembers = [
     email: "divyangpurohit.mba@charusat.ac.in",
   },
   {
-    id: 14,
+    id: 13,
     name: "Dr. Khushboo Bhatt",
     designation: "Assistant Professor",
     qualification: "PhD, MBA (Project Management), BBA",
@@ -297,7 +289,7 @@ const facultyMembers = [
     email: "khushboobhatt.mba@charusat.ac.in",
   },
   {
-    id: 15,
+    id: 14,
     name: "Dr. Shabana Anjum",
     designation: "Assistant Professor",
     qualification: "PhD, MBA (HRM), BCom",
@@ -306,7 +298,7 @@ const facultyMembers = [
     email: "shabanaanjum.mba@charusat.ac.in",
   },
   {
-    id: 16,
+    id: 15,
     name: "Mr. Mahendra H Prajapati",
     designation: "Assistant Professor",
     qualification: "PhD (Pursuing), MBA (Marketing), BCA",
@@ -315,7 +307,7 @@ const facultyMembers = [
     email: "mahendraprajapati.mba@charusat.ac.in",
   },
   {
-    id: 17,
+    id: 16,
     name: "Dr. Gopalbhai G Shah",
     designation: "Assistant Professor",
     qualification: "PhD, MSc (Statistics), MSc-IT,PGDCA, BSc",
@@ -325,7 +317,7 @@ const facultyMembers = [
   },
 
   {
-    id: 18,
+    id: 17,
     name: "Ms. Khushali Pathak",
     designation: "Assistant Professor",
     qualification: "PhD (Pursuing), MBA (HRM), BBA",
@@ -335,7 +327,7 @@ const facultyMembers = [
     email: "khushalipathak.mba@charusat.ac.in",
   },
   {
-    id: 19,
+    id: 18,
     name: "Mr. Surpalsinh Rathod",
     designation: "Assistant Professor",
     qualification: "PhD (Pursuing), MBA (Finance), BBA",
@@ -343,17 +335,9 @@ const facultyMembers = [
     image: "/assets/Faculty_Photos/19_Mr. Surpalsinh Rathod.webp",
     email: "surpalrathod.mba@charusat.ac.in",
   },
+  
   {
-    id: 20,
-    name: "Ms. Rania Pathan",
-    designation: "Assistant Professor",
-    qualification: "PhD (Pursuing), MBA (Finance), BCom",
-    specialization: "Cost and Management Accounting, Financial Management",
-    image: "/assets/Faculty_Photos/20_Ms. Rania Pathan.webp",
-    email: "raniapathan.mba@charusat.ac.in",
-  },
-  {
-    id: 21,
+    id: 19,
     name: "Mr. Brijesh Patel",
     designation: "Assistant Professor",
     qualification: "PhD (Pursuing), MHRM, BCom, DCA",
@@ -363,7 +347,7 @@ const facultyMembers = [
     email: "brijeshpatel.mba@charusat.ac.in",
   },
   {
-    id: 22,
+    id: 20,
     name: "Ms. Foram Pathak",
     designation: "Assistant Professor",
     qualification: "Ph.D. (Pursuing), MBA (Marketing), MS, BSc",
@@ -374,7 +358,7 @@ const facultyMembers = [
   },
 
   {
-    id: 23,
+    id: 21,
     name: "Mrs. Nikita R. Chhasatiya",
     designation: "Teaching Assistant",
     qualification: "PhD (Pursuing), MBA (HRM), BBA",
@@ -382,17 +366,9 @@ const facultyMembers = [
     image: "/assets/Faculty_Photos/23_Ms. Nikita Chhasatiya.webp",
     email: "nikitachhasatiya.mba@charusat.ac.in",
   },
+
   {
-    id: 24,
-    name: "Ms. Riddhi Soneji",
-    designation: "Teaching Assistant ",
-    qualification: "MBA (Marketing), BBA",
-    specialization: "Marketing Management, General Management",
-    image: "/assets/Faculty_Photos/24_Ms. Riddhi Soneji.webp",
-    email: "riddhisoneji.mba@charusat.ac.in",
-  },
-  {
-    id: 25,
+    id: 22,
     name: "Ms. Ojisha Bhardwaj",
     designation: "Assistant Professor",
     qualification: "PhD (Pursuing), MCom (HRM), MCA, LLB, BBA, AIBCE, UGC-Net",
@@ -401,7 +377,7 @@ const facultyMembers = [
     email: "ojishabhardwaj.mba@charusat.ac.in",
   },
   {
-    id: 26,
+    id: 23,
     name: "Dr. Mehul Shah",
     designation: "Assistant Professor",
     qualification: "PhD, MBA (Marketing), BE",
@@ -410,17 +386,9 @@ const facultyMembers = [
     image: "/assets/Faculty_Photos/26_Dr. Mehul Shah.webp",
     email: "mehulshah.mba@charusat.ac.in",
   },
+
   {
-    id: 27, 
-    name: "Ms. Aashita Agrawal",
-    designation: "Assistant Professor",
-    qualification: "MBA (Finance & Marketing), BCom",
-    specialization: "Business Analytics, Finance",
-    image: "/assets/Faculty_Photos/27_Ms. Aashita Agrawal.webp",
-    email: "aashitaagrawal.mba@charusat.ac.in",
-  },
-  {
-    id: 28,
+    id: 24,
     name: "Ms. S.Subhashree",
     designation: "Assistant Professor",
     qualification: "PhD (Pursuing), MPhil (Commerce), MCom, BCom, DCCM, TN-SET (Commerce)",
@@ -428,27 +396,10 @@ const facultyMembers = [
     image: "/assets/Faculty_Photos/28_Ms. Subhashree S.webp",
     email: "subhashrees.mba@charusat.ac.in",
   },
+
+ 
   {
-    id: 29,
-    name: "Dr. Nilam Parmar",
-    designation: "Assistant Professor",
-    qualification: "PhD, MCom, BBA, PGDBM, DTP",
-    specialization:
-      "Business Analytics, Marketing Management",
-    image: "/assets/Faculty_Photos/29_Dr. Nilam Parmar.webp",
-    email: "nilamparmar.mba@charusat.ac.in",
-  },
-  {
-    id: 30,
-    name: "Dr. Sumetha Madhu",
-    designation: "Assistant Professor",
-    qualification: "PhD, MPhil, MCom, BCom",
-    specialization: "Marketing, Consumer Behaviour",
-    image: "/assets/Faculty_Photos/30_Dr. Sumetha Madhu.webp",
-    email: "sumethamadhu.mba@charusat.ac.in",
-  },
-  {
-    id: 31,
+    id: 25,
     name: "Dr. Amin Vohra",
     designation: "Assistant Professor",
     qualification: "PhD, MPhil, MCom, BCom, GSET(Commerce)",
@@ -457,17 +408,62 @@ const facultyMembers = [
     email: "aminvohra.mba@charusat.ac.in",
   },
   {
-    id: 32,
+   id: 26,
+    name: "Mr. Tej Suthar",
+    designation: "Assistant Professor",
+    qualification: "Ph.D (pursuing),PGDM (Dual Specialization-Operation & Marketing), BE(Mech) ",
+    specialization: "Marketing Management and Supply Chain Management",
+    image: "/assets/Faculty_Photos/Mr.Tej Suthar.png",
+    email: "tejsuthar.mba@charusat.ac.in",
+  },
+  {
+    id: 27,
+    name: "Ms. Poonam Mehta ",
+    designation: "Assistant Professor",
+    qualification: "Ph.D (Pursuing), MBA (HR)",
+    specialization: "Artificial Intelligence and Digital Transformation in Management",
+    image: "/assets/Faculty_Photos/Ms.Poonam Mehta.png",
+    email: "poonammehta.mba@charusat.ac.in",
+},
+{
+    id: 28,
+    name: "Ms. Megha Adwani",
+    designation: "Assistant Professor",
+    qualification: "PhD (Pursuing), MBA (HR), B.Ed (Commerce)",
+    specialization: "Human Resource Management, Higher Education Management",
+    image: "/assets/Faculty_Photos/Ms.Megha Adwani.png",
+    email: "meghaadwani.mba@charusat.ac.in",
+},
+  {
+    id: 29,
+    name: "Ms. Sayali Kharpate",
+    designation: "Assistant Professor",
+    qualification: "Ph.D (pursuing), MBA(Finance), BCom",
+    specialization: "Financial Technology and Management , General Management",
+    image: "/assets/Faculty_Photos/Ms.Sayali Kharpate.png",
+    email: "sayalikharpate.mba@charusat.ac.in",
+  },
+  {
+    id: 30,
+    name: "Dr. Parth Chhabra",
+    designation: "Assistant Professor",
+    qualification: "Ph.D, MCom (HRM), DGI",
+    specialization: "General Management, Human Resource Management",
+    image: "/assets/Faculty_Photos/Dr.Parth Chhabra.png",
+    email: "parthchhabra.mba@charusat.ac.in",
+  },
+  {
+    id: 31,
     name: "Mr. Snehalkumar Patel",
     designation:
       "Sr. Lab Technician, Tech. Associate & Examination (Online Education)",
-    qualification: "PhD (Pursuing), Msc-IT, BIT",
+    qualification: "Msc-IT, BIT",
     specialization: "Netwoking, Consumer Behaviour",
     image: "/assets/Faculty_Photos/32_Mr. Snehalkumar Patel.webp",
     email: "snehalpatel.mba@charusat.ac.in",
   },
   {
-    id: 33,
+    id: 32,
     name: "Mr. Dipak Patel",
     designation: "Library Executive",
     qualification: "MLib, BA",
@@ -476,7 +472,7 @@ const facultyMembers = [
     email: "dipakpatel.lib@charusat.ac.in",
   },
   {
-    id: 34,
+    id: 33,
     name: "Mr. Divyesh Patel",
     designation: "Office Assistant",
     qualification: "BA",
@@ -485,7 +481,7 @@ const facultyMembers = [
     email: "divyeshpatel.mba@charusat.ac.in",
   },
   {
-    id: 35,
+    id: 34,
     name: "Mr. Ishan Patel",
     designation: "Office Assistant",
     qualification: "MTech (EVD) , BTech ",
@@ -494,7 +490,7 @@ const facultyMembers = [
     email: "ishanpatel.mba@charusat.ac.in",
   },
   {
-    id: 36,
+    id: 35,
     name: "Mr. Amit Patel",
     designation: "Office Attendant",
     qualification: "10th Pass",
@@ -503,7 +499,7 @@ const facultyMembers = [
     email: "---",
   },
   { 
-    id: 37,
+    id: 36,
     name: "Mr. Jinal Patel",
     designation: "Office Attendant",
     qualification: " BCom ",
