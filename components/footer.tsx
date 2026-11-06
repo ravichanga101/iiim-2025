@@ -293,7 +293,7 @@ function footer() {
                   href="tel:+912697265011"
                   className="text-muted-foreground hover:text-primary"
                 >
-                  +91-7043520693 / +91 2697 265172
+                  +91-2697-265171/78
                 </Link>
               </li>
               <li className="flex items-center gap-2">

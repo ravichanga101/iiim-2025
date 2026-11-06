@@ -377,7 +377,7 @@ export default function Header() {
       setHoverTimeout(timeout);
     }
   };
-  const handleSubmenuMouseEnter = (openMenu) => {
+  const handleSubmenuMouseEnter = (openMenu: string) => {
     if (hoverTimeout) {
       clearTimeout(hoverTimeout); // Prevent closing when hovering over the submenu
       setHoverTimeout(null);
@@ -479,7 +479,7 @@ export default function Header() {
           </Link>
           <Link href="https://www.aacsb.edu/members?page=27">
           <Image
-            src="./AACSB-logo.svg"   // <-- Change to your logo
+            src="./aacsb-logo-member.webp"   // <-- Change to your logo
             alt="Second Logo"
             width={120}
             height={80}
